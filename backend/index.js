@@ -19,5 +19,5 @@ app.all('*', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`servidor iniciado en el puerto ${process.env.PORT}`)
+  console.log(`servidor iniciado en el puerto ${port}`)
 })
