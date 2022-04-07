@@ -8,14 +8,15 @@ export default function Message({ handleShowChat, socket, showChat }) {
   const [chatMessages, setChatMessages] = useState([]);
 
   const scrollDiv = useRef();
+  const msgClient = num < 3 ? `msg-client${num}` : "msg-client3";
 
   const sendMsg = (userMessage) => {
-    console.log("NUM MANDADO", num);
-    console.log("SOCKET", socket);
-    socket.emit(`msg-client${num}`, userMessage);
+    socket.emit(msgClient, userMessage);
     num++;
-    scrollDiv.current.scrollIntoView({ behavior: "smooth" });
-    console.log(scrollDiv.current);
+
+    setTimeout(() => {
+      scrollDiv.current.scrollIntoView({ block: "end", behavior: "smooth" });
+    }, 100);
   };
 
   const handleClick = () => {
@@ -35,12 +36,8 @@ export default function Message({ handleShowChat, socket, showChat }) {
   };
 
   useEffect(() => {
-    console.log("efecto message!", socket);
     if (socket?.connected === false) {
-      console.log("connected", socket?.connected);
-      // setReconnection((prev) => !prev);
       socket.connect("http://localhost:8080");
-      console.log("socket effect", socket);
     }
 
     socket.emit("initial-client", { nombre: "daniel" });
@@ -54,7 +51,6 @@ export default function Message({ handleShowChat, socket, showChat }) {
 
     return () => {
       socket.disconnect();
-      console.log("effect fuera!");
     };
   }, []);
 
@@ -91,7 +87,7 @@ export default function Message({ handleShowChat, socket, showChat }) {
                 <p
                   className={`whitespace-pre-wrap ${
                     msg.sendBy === "user"
-                      ? "text-right bg-slate-400 text-white w-max ml-auto px-5 py-1 rounded-lg"
+                      ? "text-right bg-indigo-500 text-white w-max ml-auto px-5 py-1 rounded-lg"
                       : "text-left bg-slate-50 p-2 shadow-md rounded-md"
                   }`}
                 >

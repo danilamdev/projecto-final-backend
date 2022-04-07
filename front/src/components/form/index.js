@@ -31,7 +31,7 @@ export default function Form() {
         setMessage({ show: false, status: "" });
       }, 5000);
 
-      setProductos((prev) => [...prev, res.newProduct]);
+      setProductos((prev) => [...prev, ...res.nuevoProducto]);
     });
   };
 

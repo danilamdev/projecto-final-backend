@@ -6,13 +6,9 @@ export default function Carrito() {
   const { carrito, setCarrito } = useContext(productContext);
   const [message, setMessage] = useState({ show: false, status: "" });
 
-  console.log("CARRITO", carrito);
-
   useEffect(() => {
-    console.log("carritoEffect");
     getCarritoById().then((res) => {
       setCarrito(res.productos.length);
-      console.log("CARRITO", res.productos.length);
 
       setMessage({ show: true, status: "en el status" });
       setTimeout(() => {

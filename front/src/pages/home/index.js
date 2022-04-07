@@ -10,7 +10,6 @@ export default function Home() {
   const { productos, setProductos } = useContext(productContext);
 
   useEffect(() => {
-    console.log("render EFFECT");
     getProductos().then((productos) => setProductos(productos));
   }, [setProductos]);
 

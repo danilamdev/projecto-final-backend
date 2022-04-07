@@ -17,6 +17,14 @@ const RESPONSE_MSG = {
     sendBy: 'server',
     message: `esto es solo una muestra,\n que lastima no te guste, vamos a mejorarla pronto!\nnos vemos!`,
   },
+  wrong: {
+    sendBy: 'server',
+    message: `Perdón!,\n soy nuevo en esto y no entiendo mucho\nsolo puedes poner 1 o 2, intenta de nuevo...`,
+  },
+  final: {
+    sendBy: 'server',
+    message: `Lo siento!,\n pero no tengo mucho mas para decir...\nNos vemos Pronto!`,
+  },
 }
 
 export default RESPONSE_MSG
