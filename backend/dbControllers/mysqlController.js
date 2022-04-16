@@ -1,4 +1,4 @@
-import configMsql from './configMysql.js'
+import configMsql from '../config/configMysql.js'
 import Knex from 'knex'
 
 class Productos {

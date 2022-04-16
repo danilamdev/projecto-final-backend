@@ -1,5 +1,5 @@
 import Knex from 'knex'
-import configSqlite from './configSqlite.js'
+import configSqlite from '../config/configSqlite.js'
 
 class Mensajes {
   constructor(config) {

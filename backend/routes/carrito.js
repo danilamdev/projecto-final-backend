@@ -1,5 +1,5 @@
 import express from 'express'
-import { carritoController } from '../controllers/classController.js'
+import { carritoController } from '../fileControllers/classController.js'
 import { carritoService } from '../dbControllers/mysqlController.js'
 
 const router = express.Router()

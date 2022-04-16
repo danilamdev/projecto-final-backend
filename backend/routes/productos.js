@@ -1,5 +1,5 @@
 import express from 'express'
-import { productController } from '../controllers/classController.js'
+import { productController } from '../fileControllers/classController.js'
 import { productService } from '../dbControllers/mysqlController.js'
 
 const router = express.Router()

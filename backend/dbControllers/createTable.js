@@ -1,5 +1,5 @@
-import configMsql from './configMysql.js'
-import configSqlite from './configSqlite.js'
+import configMsql from '../config/configMysql.js'
+import configSqlite from '../config/configSqlite.js'
 import Knex from 'knex'
 
 const knexMsql = Knex(configMsql)
