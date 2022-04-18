@@ -1,8 +1,8 @@
+import 'dotenv/config'
 import express from 'express'
 import cors from 'cors'
 import http from 'http'
 import { Server } from 'socket.io'
-import 'dotenv/config'
 
 import notFound from './middlewares/notFound.js'
 import productosRouter from './routes/productos.js'
@@ -10,6 +10,8 @@ import carritoRouter from './routes/carrito.js'
 import './dbControllers/createTable.js'
 import RESPONSE_MSG from './utils/socket_responses.js'
 import mensajes from './dbControllers/sqliteControllers.js'
+import './config/mongoose.js'
+import { db } from './config/firebase.js'
 
 const app = express()
 const serverHttp = http.createServer(app)

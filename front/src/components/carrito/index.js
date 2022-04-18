@@ -1,19 +1,16 @@
-import { useState, useEffect, useContext } from "react";
+import { useEffect, useContext } from "react";
 import { productContext } from "../../context/productContext";
 import { getCarritoById } from "../../services/carrito";
 
 export default function Carrito() {
   const { carrito, setCarrito } = useContext(productContext);
-  const [message, setMessage] = useState({ show: false, status: "" });
+ 
 
   useEffect(() => {
     getCarritoById().then((res) => {
       setCarrito(res.productos.length);
 
-      setMessage({ show: true, status: "en el status" });
-      setTimeout(() => {
-        setMessage({ show: false, status: "" });
-      }, 5000);
+     
     });
   }, []);
 
@@ -25,6 +22,8 @@ export default function Carrito() {
             {carrito}
           </p>
         ) : null}
+
+       
 
         <img src="/cart.svg" alt="cart" className="w-12 m-0 ml-auto" />
       </div>

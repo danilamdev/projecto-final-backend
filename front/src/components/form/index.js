@@ -25,14 +25,17 @@ export default function Form() {
 
     setNewProduct(initialValues);
 
-    await createProduct(newProduct).then((res) => {
-      setMessage({ show: true, status: res.status });
-      setTimeout(() => {
-        setMessage({ show: false, status: "" });
-      }, 5000);
+    await createProduct(newProduct)
+      .then((res) => {
+        setMessage({ show: true, status: res.status });
+        setTimeout(() => {
+          setMessage({ show: false, status: "" });
+        }, 5000);
 
-      setProductos((prev) => [...prev, ...res.nuevoProducto]);
-    });
+        setProductos( prev => [...prev, res.nuevoProducto]);
+
+        console.log('productos', productos)
+      });
   };
 
   return (

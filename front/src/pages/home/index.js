@@ -17,10 +17,18 @@ export default function Home() {
     <>
       <Chat />
       <Carrito />
-      <h1 className="text-3xl text-center font-bold w-3/4 m-auto py-24 md:w-[550px]">
+      <h1 className="text-4xl text-center font-bold w-3/4 m-auto py-24 md:w-[550px]">
         Ecomerce CoderHouse BACKEND
       </h1>
-      <ListOfProducts productos={productos} />
+      {productos.length === 0 
+        ? (<div className="w-full h-96 border grid place-content-center">
+          <h1 className="text-5xl text-pink-400 font-bold">loading...</h1>
+        </div>)
+        : (
+          <ListOfProducts productos={productos} />
+
+        )
+      }
       <Form />
     </>
   );
