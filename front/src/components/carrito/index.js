@@ -9,8 +9,6 @@ export default function Carrito() {
   useEffect(() => {
     getCarritoById().then((res) => {
       setCarrito(res.productos.length);
-
-     
     });
   }, []);
 

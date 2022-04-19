@@ -11,7 +11,6 @@ import './dbControllers/createTable.js'
 import RESPONSE_MSG from './utils/socket_responses.js'
 import mensajes from './dbControllers/sqliteControllers.js'
 import './config/mongoose.js'
-import { db } from './config/firebase.js'
 
 const app = express()
 const serverHttp = http.createServer(app)
@@ -94,6 +93,7 @@ app.use(cors())
 app.use('/api/productos', productosRouter)
 app.use('/api/carrito', carritoRouter)
 
+// --404 not Found
 app.use(notFound)
 
 serverHttp.listen(port, () => {

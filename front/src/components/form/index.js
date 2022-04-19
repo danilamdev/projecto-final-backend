@@ -34,7 +34,6 @@ export default function Form() {
 
         setProductos( prev => [...prev, res.nuevoProducto]);
 
-        console.log('productos', productos)
       });
   };
 
