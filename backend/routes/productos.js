@@ -20,9 +20,9 @@ router.get('/:id?', async (req, res) => {
 
   const producto = await mongoProduct.getById(id) //--USANDO MONGODB
   // const producto = await fireStoreProduct.getById(id) //--USANDO FIRESTORE
-  
+
   if (producto.length === 0) return res.status(404).json({ error: 'no se encontro el producto...' })
-  
+
   return res.json(producto)
 })
 
@@ -38,7 +38,7 @@ router.post('/', async (req, res) => {
 
   const { body } = req
 
-  const nuevoProducto = await mongoProduct.saveProduct(body)//--USANDO MONGO
+  const nuevoProducto = await mongoProduct.saveProduct(body) //--USANDO MONGO
   // const nuevoProducto = await fireStoreProduct.saveProduct(body)//--USANDO FIRESTORE
 
   res.json({ status: 'producto agregado', nuevoProducto })
@@ -55,7 +55,7 @@ router.delete('/:id', async (req, res) => {
       .end()
 
   const { id } = req.params
-  await mongoProduct.removeById(id)//--USANDO MONGO
+  await mongoProduct.removeById(id) //--USANDO MONGO
   // await fireStoreProduct.removeById(id)//--USANDO FIRESTORE
 
   res.json({ status: 'producto eliminado' })
@@ -74,11 +74,9 @@ router.put('/:id', async (req, res) => {
   const { id } = req.params
   const { body } = req
 
-  await mongoProduct.updateById(id, body)//--USANDO MONGO
+  await mongoProduct.updateById(id, body) //--USANDO MONGO
   // await fireStoreProduct.updateById(id, body)//--USANDO FIRESTORE
   res.json({ status: 'updated' })
 })
-
-
 
 export default router

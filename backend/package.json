@@ -29,6 +29,7 @@
     "semi": false
   },
   "devDependencies": {
+    "@faker-js/faker": "^6.2.0",
     "dotenv": "^16.0.0",
     "nodemon": "^2.0.15"
   }
