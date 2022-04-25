@@ -13,7 +13,7 @@ class ProductService {
       this.products.push(product)
     }
 
-    return this.products
+    return this.products.slice(0, 5)
   }
 }
 

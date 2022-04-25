@@ -3,9 +3,8 @@ import { getProductos } from "../../services/productos";
 import { productContext } from "../../context/productContext";
 import ListOfProducts from "../../components/listofProducts";
 import Form from "../../components/form";
-import Carrito from "../../components/carrito";
 import Chat from "../../components/chat";
-import { createProducts } from "../../services/createMockProducts";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const { productos, setProductos } = useContext(productContext);
@@ -14,25 +13,19 @@ export default function Home() {
     getProductos().then((productos) => setProductos(productos));
   }, [setProductos]);
 
-  const showMockProducts = async () => {
-    const mockProductos = await createProducts();
-    console.log(mockProductos);
-  };
-
   return (
     <>
       <Chat />
-      <Carrito />
       <h1 className="text-4xl text-center font-bold w-3/4 m-auto py-24 md:w-[550px]">
         Ecomerce CoderHouse BACKEND
       </h1>
+
       <div className="max-w-md mx-auto mb-8">
-        <button
-          className="border border-blue-400 mx-auto block p-2"
-          onClick={showMockProducts}
-        >
-          mostrar productos
-        </button>
+        <Link to={"/mock"}>
+          <button className="border border-slate-400 mx-auto block p-2 mb-24">
+            mocks productos
+          </button>
+        </Link>
       </div>
       {productos.length === 0 ? (
         <div className="w-full h-96 border grid place-content-center">
