@@ -3,7 +3,7 @@ import Carrito from "../carrito";
 
 export default function Header() {
   return (
-    <header className="bg-white shadow-sm w-auto">
+    <header className="bg-white shadow-sm w-full">
       <div className="flex justify-between items-center w-5/6 m-auto max-w-screen-lg">
         <Link to={"/"}>
           <h2 className="text-xl tracking-tighter pb-2">

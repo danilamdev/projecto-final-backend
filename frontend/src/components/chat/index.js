@@ -14,7 +14,7 @@ export default function Chat() {
     <>
       <div
         onClick={() => setShowChat(true)}
-        className="chat-container cursor-pointer bg-slate-700 fixed right-8 bottom-10 w-14 h-14 rounded-full grid place-content-center shadow-md shadow-slate-800 scale-90"
+        className="z-10 chat-container cursor-pointer bg-slate-700 fixed right-8 bottom-10 w-14 h-14 rounded-full grid place-content-center shadow-md shadow-slate-800 scale-90"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
