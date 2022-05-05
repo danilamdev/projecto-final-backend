@@ -5,13 +5,16 @@ import ListOfProducts from "../../components/listofProducts";
 import Form from "../../components/form";
 import Chat from "../../components/chat";
 import { Link } from "react-router-dom";
+// import { useUser } from "../../context/userContext";
 
 export default function Home() {
   const { productos, setProductos } = useContext(productContext);
+  // const {user} = useUser()
 
   useEffect(() => {
     getProductos().then((productos) => setProductos(productos));
   }, [setProductos]);
+
 
   return (
     <>

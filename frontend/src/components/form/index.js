@@ -13,7 +13,7 @@ export default function Form() {
   };
   const [newProduct, setNewProduct] = useState(initialValues);
   const [message, setMessage] = useState({ show: false, status: "" });
-  const { productos, setProductos } = useContext(productContext);
+  const { setProductos } = useContext(productContext);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -50,8 +50,8 @@ export default function Form() {
           </p>
         )}
         <div className="flex flex-col">
-          <label htmlFor="nombre" className="text-gray-600">
-            nombre
+          <label htmlFor="producto" className="text-gray-600">
+            producto
           </label>
           <input
             type="text"
