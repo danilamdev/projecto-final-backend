@@ -6,7 +6,6 @@ import { Server } from 'socket.io'
 import './config/mongoose.js'
 import session from 'express-session'
 import mongoStore from 'connect-mongo'
-
 import notFound from './middlewares/notFound.js'
 import productosRouter from './routes/productos.js'
 import carritoRouter from './routes/carrito.js'
