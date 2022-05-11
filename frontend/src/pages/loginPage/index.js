@@ -6,29 +6,30 @@ import { useNavigate } from "react-router-dom"
 
 export default function LoginPage(){
   const [username, setUsername] = useState('')
-  const [pass, setPass] = useState('')
+  const [password, setPassword] = useState('')
   const {setUser} = useUser()
   const navigate = useNavigate()
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    loginService({username, pass})
+    loginService({username, password})
       .then(response => response.json())
       .then(data => {
-        setUser(data.user.username)
+        setUser(data.user)
         navigate('/')
+        console.log(data.user)
 
       })
 
     setUsername('')
-    setPass('')
+    setPassword('')
   }
 
 
   return (
     <>
    
-    <section className="bg-white w-11/12 mx-auto flex flex-col mt-32 rounded-xl shadow-md">
+    <section className="bg-white max-w-lg w-11/12 mx-auto flex flex-col mt-32 rounded-xl shadow-md">
       <h2 className="text-center font-bold text-4xl my-8">Login</h2>
       <div>
         <form onSubmit={handleSubmit} className='flex flex-col w-4/5 mx-auto px-5 py-10 gap-4 mb-10' >
@@ -36,10 +37,10 @@ export default function LoginPage(){
           <input type="text" name="username" value={username} onChange={(e) => setUsername(e.target.value)} className="p-3 rounded-md shadow-sm border bg-slate-50"/>
         
           <label htmlFor="password" className="mt-4 text-lg">password</label>
-          <input type="password" name="password" value={pass} onChange={(e) => setPass(e.target.value)} className="p-3 rounded-md shadow-sm border bg-slate-50"/>
+          <input type="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)} className="p-3 rounded-md shadow-sm border bg-slate-50"/>
 
           <button className="bg-indigo-400 font-bold p-3 rounded-md text-white text-xl mt-8 hover:bg-indigo-300">Login</button>
-          <small>No tenes cuenta?<span className="text-indigo-400"><Link to={'/'}> registrate</Link></span> </small>
+          <small>No tenes cuenta?<span className="text-indigo-400"><Link to={'/register'}> registrate</Link></span> </small>
         </form>
       </div>
     </section>

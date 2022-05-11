@@ -7,24 +7,26 @@ const registerValidate = passport.authenticate('register', {failureRedirect: '/a
 
 
  router.get('/checkUser', (req, res) => {
-   console.log( 'mi session', req.session)
-
-   if(!req.session?.user){
-     return res.status(401).json({error: true})
-   }
-   res.json(req.session)
+  console.log(req.isAuthenticated())
+  //  if(!req.session?.user){
+  //    return res.status(401).json({error: true})
+  //  }
+  const user = req.user
+   res.json({isAuth: req.isAuthenticated(), user})
  } )
 
  router.get('/logout', (req, res) => {
-   req.session.destroy()
+  //  req.session.destroy()
+   req.logOut()
    res.status(200).end()
    
  } )
 
  router.post('/login', loginValidate , (req, res) => {
    const user = req.user
-
-   res.json({status: 'success', user})
+   const {passwordHash, ...restUser} = user._doc
+   res.json({status: 'ok', user})
+   console.log(req.isAuthenticated())
  })
 
  router.get('/failLogin', (req, res) => {
@@ -33,12 +35,13 @@ const registerValidate = passport.authenticate('register', {failureRedirect: '/a
 
  router.post('/register', registerValidate, (req, res) => {
    const user = req.user
-   res.json({status: 'success', user})
+   res.json({status: 'ok', user})
  })
 
  router.get('/failRegister', (req, res) => {
    res.status(409).json({status: 'error', msg: 'usuario ya registrado'})
  })
+
 
 
 export default router

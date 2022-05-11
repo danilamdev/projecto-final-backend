@@ -29,7 +29,7 @@ export default function Header() {
       logoutMessage
         ? (
           <div className="fixed left-2/5 bg-indigo-500 text-white p-5">
-            <h1>hasta luego {user}!</h1>
+            <h1>hasta luego {user?.username}!</h1>
           </div>
         )
         : (
@@ -49,7 +49,7 @@ export default function Header() {
               user 
                 ? (
                   <div className="flex gap-5 p-2 items-center">
-                    <p className="text-base">Bienvenido <span className="font-bold">{user}!</span></p>
+                    <p className="text-base">Bienvenido <span className="font-bold">{user.mail}!</span></p>
                     <p className="relative after:absolute after:-inset-3 after:border-b-2 after:border-pink-300 after:hidden hover:after:block cursor-pointer ml-4" onClick={handleLogout}>
                       Logout
                     </p>

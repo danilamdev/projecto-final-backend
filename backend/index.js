@@ -5,6 +5,7 @@ import http from 'http'
 import { Server } from 'socket.io'
 import './config/mongoose.js'
 import session from 'express-session'
+import passport from 'passport'
 import mongoStore from 'connect-mongo'
 import notFound from './middlewares/notFound.js'
 import productosRouter from './routes/productos.js'
@@ -103,8 +104,9 @@ app.use(session({
     httpOnly: true,
     maxAge: 60 * 1000
   }
- 
 }))
+app.use(passport.initialize())
+app.use(passport.session())
 
 // --RUTAS API
 

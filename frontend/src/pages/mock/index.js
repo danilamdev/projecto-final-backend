@@ -10,8 +10,6 @@ export default function Mock() {
     setMockProducts(productos);
   };
 
-  console.log(mockProducts)
-
   return (
     <div>
       <div className="p-10">
