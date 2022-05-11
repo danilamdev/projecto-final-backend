@@ -5,7 +5,7 @@ import ListOfProducts from "../../components/listofProducts";
 import Form from "../../components/form";
 import Chat from "../../components/chat";
 import { Link } from "react-router-dom";
-// import { useUser } from "../../context/userContext";
+import Loader from "../../components/loader";
 
 export default function Home() {
   const { productos, setProductos } = useContext(productContext);
@@ -30,13 +30,10 @@ export default function Home() {
           </button>
         </Link>
       </div>
-      {productos.length === 0 ? (
-        <div className="w-full h-96 border grid place-content-center">
-          <h1 className="text-5xl text-pink-400 font-bold">loading...</h1>
-        </div>
-      ) : (
-        <ListOfProducts productos={productos} />
-      )}
+      {productos.length === 0 
+        ?  <Loader />
+        :  <ListOfProducts productos={productos} />
+      }
       <Form />
     </>
   );

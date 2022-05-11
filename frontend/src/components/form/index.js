@@ -1,6 +1,8 @@
 import { useState, useContext } from "react";
 import { createProduct } from "../../services/productos";
 import { productContext } from "../../context/productContext";
+import { useUser } from "../../context/userContext";
+import { useNavigate } from "react-router-dom";
 
 export default function Form() {
   const initialValues = {
@@ -14,6 +16,8 @@ export default function Form() {
   const [newProduct, setNewProduct] = useState(initialValues);
   const [message, setMessage] = useState({ show: false, status: "" });
   const { setProductos } = useContext(productContext);
+  const {user} = useUser()
+  const navigate = useNavigate()
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -22,7 +26,10 @@ export default function Form() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    if(!user) {
+      return navigate('/login')
+    } 
+    console.log('aqui')
     setNewProduct(initialValues);
 
     await createProduct(newProduct)

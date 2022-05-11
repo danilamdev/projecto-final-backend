@@ -7,8 +7,10 @@ import CartPage from "./pages/cart";
 import LoginPage from "./pages/loginPage";
 import RegisterPage from "./pages/register";
 import RegisterSuccess from "./pages/registerSuccess";
+import RegisterForm from "./components/registerForm";
 import Header from "./components/header";
 import { useUser } from "./context/userContext";
+import Loader from "./components/loader";
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -28,7 +30,7 @@ function App() {
       })
   },[setUser])
 
-  if(loading) return <h1 className="text-4xl text-indigo-500 font-bold">LOADING...</h1>
+  if(loading) return <Loader />
 
   return (
     <div className="App">
@@ -38,9 +40,13 @@ function App() {
         <Route path="/mock" element={<Mock />} />
         <Route path="/cart" element={<CartPage />} />
         <Route path="/login" element={<LoginPage />} />
-        <Route path="/register" element={<RegisterPage />} />
-        <Route path="/register-success" element={<RegisterSuccess />} />
+       
+        <Route path="/register" element={<RegisterPage />}>
+          <Route index element={<RegisterForm />}/>
+          <Route path="success" element={<RegisterSuccess />} />
+        </Route>
       </Routes>
+     
     </div>
   );
 }
