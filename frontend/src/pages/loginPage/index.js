@@ -2,14 +2,14 @@ import { useState } from "react"
 import {Link} from 'react-router-dom'
 import loginService from "../../services/login"
 import { useUser } from "../../context/userContext"
-import { useNavigate } from "react-router-dom"
+import { useNavigate, Navigate } from "react-router-dom"
 import Loader from '../../components/loader/index'
 
 export default function LoginPage(){
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState(null)
-  const {setUser} = useUser()
+  const {user, setUser} = useUser()
   const navigate = useNavigate()
   const [loading, setLoading] = useState(false)
 
@@ -36,7 +36,7 @@ export default function LoginPage(){
     setPassword('')
   }
 
-  console.log(loading)
+  if(user) return <Navigate to={'/'} />
   if(loading) return <Loader />
   
   return (

@@ -12,7 +12,7 @@ export default function CartPage() {
             <h1>Hola {user.username}!</h1>
              <h1>estas autorizado para ver tu cart</h1>
            </div>
-        :<Navigate to={'/login'}>no estas autorizado</Navigate>
+        :<Navigate to={'/login'} />
       
       }
     </>
