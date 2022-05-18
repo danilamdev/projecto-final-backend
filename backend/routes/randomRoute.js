@@ -5,7 +5,7 @@ const router = express.Router()
 let calculo = fork('./utils/random.js')
 
 router.get('/', (req, res)=> {
-   const {cantidad = 100} = req.query
+   const {cantidad = 100000000} = req.query
    
    
    calculo.on('message', resultado => {

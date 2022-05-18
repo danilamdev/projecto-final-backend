@@ -13,6 +13,6 @@ function randomNum (cant){
     console.log('process on', cant)
     const resultado = randomNum(cant)
     
-    process.send({a:1})
+    process.send(resultado)
  })
  
