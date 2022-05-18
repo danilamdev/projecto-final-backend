@@ -11,10 +11,13 @@ import notFound from './middlewares/notFound.js'
 import productosRouter from './routes/productos.js'
 import carritoRouter from './routes/carrito.js'
 import authRoutes from './routes/auth.js'
+import infoRoute from './routes/info.js'
+import randomRoute from './routes/randomRoute.js'
 import './dbControllers/createTable.js'
 import RESPONSE_MSG from './utils/socket_responses.js'
 import mensajes from './dbControllers/sqliteControllers.js'
 import mockProductRoutes from './routes/productos-test.js'
+import { ARGS } from './utils/minimist.js'
 
 const app = express()
 const serverHttp = http.createServer(app)
@@ -113,6 +116,8 @@ app.use(passport.session())
 app.use('/api/productos', productosRouter)
 app.use('/api/carrito', carritoRouter)
 app.use('/api/auth', authRoutes)
+app.use('/api/randoms', randomRoute)
+app.use('/info', infoRoute)
 
 
 // --Ruta mock productos
@@ -121,6 +126,6 @@ app.use('/api/productos-test', mockProductRoutes)
 // --404 not Found
 app.use(notFound)
 
-serverHttp.listen(port, () => {
-  console.log(`servidor iniciado en el puerto ${port}`)
+serverHttp.listen(ARGS.puerto, () => {
+  console.log(`servidor iniciado en el puerto ${ARGS.puerto}`)
 })
