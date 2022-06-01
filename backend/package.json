@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js -p 8080"
+    "dev": "nodemon index.js",
+    "fork": "pm2 start index.js --name server1 --watch -- 8080",
+    "cluster": "pm2 start index.js --name server2 -i 5 --watch -- 8081",
+    "loadbalance": "nodemon cluster.js",
+    "pm2": "pm2 start ecosystem.config.js",
+    "forever": "forever start forever.js 8080"
   },
   "keywords": [],
-  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {

@@ -10,9 +10,7 @@ function randomNum (cant){
  }
 
  process.on('message', (cant) =>{
-    console.log('process on', cant)
     const resultado = randomNum(cant)
-    
     process.send(resultado)
  })
  

@@ -1,4 +1,5 @@
-import mongoose from 'mongoose'
+// import mongoose from 'mongoose'
+const mongoose = require('mongoose')
 ;(async () => {
   try {
     const db = await mongoose.connect(process.env.MONGO_URI)

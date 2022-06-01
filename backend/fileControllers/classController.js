@@ -1,4 +1,5 @@
-import fs from 'fs-extra'
+// import fs from 'fs-extra'
+const fs = require('fs-extra')
 
 class ProductController {
   constructor(file) {
@@ -112,5 +113,7 @@ class CarritoController {
   }
 }
 
-export const productController = new ProductController('./model/productos.json')
-export const carritoController = new CarritoController('./model/carrito.json')
+const productController = new ProductController('./model/productos.json')
+const carritoController = new CarritoController('./model/carrito.json')
+
+module.exports = { productController, carritoController }

@@ -1,4 +1,6 @@
-import { db } from "../config/firebase.js";
+// import { db } from "../config/firebase.js";
+const db = require("../config/firebase.js");
+
 
 class Producto {
 

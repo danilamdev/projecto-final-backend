@@ -1,4 +1,4 @@
-export default function isAuth(req, res, next){
+module.exports = function (req, res, next){
    if(req.isAuthenticated()) {
       req.session.touch()
       next()

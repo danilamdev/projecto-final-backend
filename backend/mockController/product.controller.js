@@ -1,4 +1,5 @@
-import { ProductService } from '../services/product.service.js'
+// import { ProductService } from '../services/product.service.js'
+const { ProductService} = require('../services/product.service.js')
 
 class ProductController {
   constructor() {
@@ -16,4 +17,5 @@ class ProductController {
   }
 }
 
-export { ProductController }
+// export { ProductController }
+module.exports = { ProductController }

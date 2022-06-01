@@ -1,5 +1,7 @@
-import Producto from "../models/producto.js";
-import Carrito from "../models/carrito.js";
+// import Producto from "../models/producto.js";
+const Producto = require('../models/producto.js');
+// import Carrito from "../models/carrito.js";
+const Carrito = require("../models/carrito.js")
 
 class Prod {
 
@@ -66,4 +68,5 @@ class carrito {
 const mongoProduct = new Prod()
 const mongoCarrito = new carrito()
 
-export {mongoProduct, mongoCarrito}
+// export {mongoProduct, mongoCarrito}
+module.exports = { mongoProduct, mongoCarrito }
