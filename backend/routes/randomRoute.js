@@ -1,7 +1,7 @@
-// import express from 'express'
-const express = require('express')
-// import {fork} from 'child_process'
-const {fork} = require('child_process')
+import express from 'express'
+// const express = require('express')
+import {fork} from 'child_process'
+// const {fork} = require('child_process')
 
 const router = express.Router()
 
@@ -24,4 +24,4 @@ router.get('/', (req, res)=> {
    })
 })
 
-module.exports = router
+export default router

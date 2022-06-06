@@ -1,4 +1,4 @@
-module.exports = {
+export default  {
    "type": "service_account",
    "project_id": "coderhouse-8afdf",
    "private_key_id": "9272cedac6a7618d97ba72a5f61b2b1fb6a99eeb",

@@ -1,9 +1,9 @@
-// import configMsql from '../config/configMysql.js'
-const configMsql = require('../config/configMysql.js')
-// import configSqlite from '../config/configSqlite.js'
-const configSqlite = require('../config/configSqlite.js')
-// import Knex from 'knex'
-const Knex = require('knex')
+import configMsql from '../config/configMysql.js'
+// const configMsql = require('../config/configMysql.js')
+import configSqlite from '../config/configSqlite.js'
+// const configSqlite = require('../config/configSqlite.js')
+import Knex from 'knex'
+// const Knex = require('knex')
 
 const knexMsql = Knex(configMsql)
 const knexSqlite = Knex(configSqlite)

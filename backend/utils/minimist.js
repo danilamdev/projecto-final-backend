@@ -1,5 +1,5 @@
-// import minimist from 'minimist'
-const minimist = require('minimist')
+import minimist from 'minimist'
+// const minimist = require('minimist')
 
 const options = { 
    default: { p: 6565},
@@ -7,5 +7,5 @@ const options = {
 }
 const ARGS = minimist(process.argv.slice(2), options)
 
-// export { ARGS }
-module.exports = { ARGS }
+export { ARGS }
+// module.exports = { ARGS }

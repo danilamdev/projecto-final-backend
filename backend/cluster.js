@@ -1,8 +1,14 @@
-const express = require('express')
-const cluster = require('cluster')
-const numCPU = require('os').cpus().length
-const randomRoute = require('./routes/randomRoute')
-const infoRoute = require('./routes/info')
+import express from 'express'
+import cluster from 'cluster'
+import os from 'os'
+import randomRoute from './routes/randomRoute'
+import infoRoute from './routes/info'
+// const express = require('express')
+// const cluster = require('cluster')
+// const numCPU = require('os').cpus().length
+// const randomRoute = require('./routes/randomRoute')
+// const infoRoute = require('./routes/info')
+
 
 const app = express()
 
@@ -18,7 +24,7 @@ app.get('/', (req, res) => {
 app.use('/api/random', randomRoute)
 app.use('/info', infoRoute)
 
-if (cluster.isMaster) {
+if (cluster.isPrimary) {
    console.log(`Master ${process.pid} is running`)
    app.listen(8080, ()=> {
       console.log('escuchando en el puerto 8080')

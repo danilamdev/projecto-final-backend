@@ -8,4 +8,4 @@ const configMsql = {
   },
 }
 
-module.exports = configMsql
+export default  configMsql

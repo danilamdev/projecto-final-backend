@@ -1,8 +1,8 @@
-// import configMsql from '../config/configMysql.js'
-const configMsql = require('../config/configMysql.js')
+import configMsql from '../config/configMysql.js'
+// const configMsql = require('../config/configMysql.js')
 
-// import Knex from 'knex'
-const knex = require('knex')
+import Knex from 'knex'
+// const knex = require('knex')
 
 class Productos {
   constructor(config) {
@@ -73,5 +73,5 @@ class Carrito {
 const productService = new Productos(configMsql)
 const carritoService = new Carrito(configMsql)
 
-// export { productService, carritoService }
-module.exports = { productService, carritoService }
+export { productService, carritoService }
+// module.exports = { productService, carritoService }

@@ -1,7 +1,7 @@
-// import Knex from 'knex'
-const Knex = require('knex')
-// import configSqlite from '../config/configSqlite.js'
-const configSqlite = require('../config/configSqlite.js')
+import Knex from 'knex'
+// const Knex = require('knex')
+import configSqlite from '../config/configSqlite.js'
+// const configSqlite = require('../config/configSqlite.js')
 
 class Mensajes {
   constructor(config) {
@@ -22,5 +22,5 @@ class Mensajes {
 
 const mensajes = new Mensajes(configSqlite)
 
-// export default mensajes
-module.exports = mensajes
+export default mensajes
+// module.exports = mensajes

@@ -1,5 +1,7 @@
-const express = require('express')
-const infoRoute = require('./routes/info')
+import express from 'express'
+import infoRoute from './routes/info'
+// const express = require('express')
+// const infoRoute = require('./routes/info')
 
 const app = express()
 const PORT = process.argv[2] || 8080

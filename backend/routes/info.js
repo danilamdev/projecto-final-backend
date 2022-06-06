@@ -1,8 +1,10 @@
-// import express from 'express'
-const express = require('express')
-// import { ARGS } from '../utils/minimist.js'
-const { ARGS} = require('../utils/minimist.js')
-const numCPUs = require('os').cpus().length
+import express from 'express'
+// const express = require('express')
+import { ARGS } from '../utils/minimist.js'
+// const { ARGS} = require('../utils/minimist.js')
+import os from 'os'
+// const numCPUs = require('os').cpus().length
+const numCPUs = os.cpus().length
 
 const router = express.Router()
 const PORT = process.argv[2]
@@ -24,4 +26,4 @@ router.get('/', (req, res) => {
    res.status(200).send(html)
 })
 
-module.exports = router
+export default router
