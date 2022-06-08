@@ -6,23 +6,31 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
+    "start": "nodemon --inspect index.js 8080",
     "fork": "pm2 start index.js --name server1 --watch -- 8080",
     "cluster": "pm2 start index.js --name server2 -i 5 --watch -- 8081",
     "loadbalance": "nodemon cluster.js",
     "pm2": "pm2 start ecosystem.config.js",
-    "forever": "forever start forever.js 8080"
+    "forever": "forever start forever.js 8080",
+    "artillery": "artillery quick --count 50 -n 40 \"http://localhost:8080/api/info\" > result_artillery.txt",
+    "prof": "node --prof index.js 8080",
+    "decodProf": "node --prof-process result.log > result-prof.txt",
+    "test": "node ./utils/prueba.js",
+    "0x": "0x index.js 8080"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "autocannon": "^7.9.0",
     "bcrypt": "^5.0.1",
     "better-sqlite3": "^7.5.1",
+    "compression": "^1.7.4",
     "connect-mongo": "^4.6.0",
     "cors": "^2.8.5",
     "express": "^4.17.3",
     "express-session": "^1.17.2",
-    "firebase-admin": "^10.0.2",
+    "firebase-admin": "^10.2.0",
     "fs-extra": "^10.0.1",
     "knex": "^1.0.5",
     "minimist": "^1.2.6",
@@ -30,7 +38,9 @@
     "mysql2": "^2.3.3",
     "passport": "^0.5.2",
     "passport-local": "^1.0.0",
-    "socket.io": "^4.4.1"
+    "socket.io": "^4.4.1",
+    "winston": "^3.7.2",
+    "winston-levelonly": "^1.0.3"
   },
   "prettier": {
     "printWidth": 120,

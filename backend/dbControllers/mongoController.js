@@ -1,6 +1,7 @@
 import Producto from "../models/producto.js";
 // const Producto = require('../models/producto.js');
 import Carrito from "../models/carrito.js";
+import logger from '../utils/logger.js'
 // const Carrito = require("../models/carrito.js")
 
 class Prod {
@@ -12,6 +13,7 @@ class Prod {
 
   async saveProduct(data){
      const newProd = await Producto.create(data)
+     logger.info('producto guardado en mongodb')
      return newProd
   }
 
@@ -22,11 +24,13 @@ class Prod {
 
   async removeById(id){
      const response = await Producto.deleteOne({_id: id})
+     logger.info('producto eliminado de mongodb')
      console.log(response)
   }
 
   async updateById(id, data){
      const response = await Producto.findOneAndUpdate({_id:id},{...data},{new: true})
+     logger.info('producto actualizado en mongodb')
   }
 }
 
@@ -34,7 +38,7 @@ class carrito {
    async saveCarrito(){
       const cart = new Carrito()
       const newCarrito = await cart.save()
-
+      logger.info('carrito guardado en mongodb')
       return newCarrito
    }
 
@@ -46,6 +50,7 @@ class carrito {
 
    async removeCarrito(id){
       await Carrito.findByIdAndRemove(id)
+      logger.info('carrito eliminado de mongodb')
    }
 
    async saveProdInCarrito(id, prodId){
@@ -58,7 +63,7 @@ class carrito {
    async removeProdInCarrito(id, prodId){
       const cart = await Carrito.findById(id).populate('productos')
       const newCart = cart.productos.filter(p => p.id !== prodId)
-      
+      logger.info('producto eliminado de carrito')
       cart.productos = newCart
       cart.save()
 

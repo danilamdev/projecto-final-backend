@@ -7,7 +7,6 @@ const router = express.Router()
 
 router.get('/:id/productos', async (req, res) => {
   const { id } = req.params
-
   const productos = await mongoCarrito.getCarrito(id)
   productos ? res.json({ productos }) : res.status(404).json({ status: 'carrito no encontrado' })
 })

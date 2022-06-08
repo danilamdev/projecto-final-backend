@@ -3,6 +3,7 @@ import express from 'express'
 import { ARGS } from '../utils/minimist.js'
 // const { ARGS} = require('../utils/minimist.js')
 import os from 'os'
+import logger from '../utils/logger.js'
 // const numCPUs = require('os').cpus().length
 const numCPUs = os.cpus().length
 
@@ -23,6 +24,7 @@ router.get('/', (req, res) => {
       <li>escuchando el puerto <strong> ${PORT || 8080}</strong></li><br/>
    </ul>
    `
+   logger.info(`Get Info/ ${html}`);
    res.status(200).send(html)
 })
 

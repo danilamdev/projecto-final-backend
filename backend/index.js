@@ -1,5 +1,4 @@
-import dotenv from 'dotenv'
-dotenv.config()
+import 'dotenv/config'
 import express from 'express'
 import cors from 'cors'
 import http from 'http'
@@ -21,6 +20,9 @@ import RESPONSE_MSG from './utils/socket_responses.js'
 import mensajes from './dbControllers/sqliteControllers.js'
 import mockProductRoutes from './routes/productos-test.js'
 import { ARGS } from './utils/minimist.js'
+import logger from './utils/logger.js'
+import compression from 'compression'
+
 // const dotenv = require('dotenv')
 // const express = require('express')
 // const http = require('http')
@@ -39,15 +41,17 @@ export const io = new Server(serverHttp)
 
 io.on('connection', async (socket) => {
   console.log('** USUARIO CONECTADO **')
+  logger.info('Usuario conectado')
 
   socket.on('initial-client', (data) => {
     mensajes.guardarMensaje(RESPONSE_MSG['initial'])
-
+    logger.info('Mensaje inicial enviado')
     socket.emit('initial-server', RESPONSE_MSG['initial'])
   })
 
   socket.on('msg-client0', async (data) => {
     const { message } = data
+    logger.info(`Mensaje recibido: ${message}`)
     await mensajes.guardarMensaje(data)
     await mensajes.guardarMensaje(RESPONSE_MSG['00']())
 
@@ -73,8 +77,8 @@ io.on('connection', async (socket) => {
   })
   socket.on('msg-client2', async (data) => {
     await mensajes.guardarMensaje(data)
-
     const { message } = data
+    logger.info(`Mensaje recibido: ${message}`)
     if (message === '1') {
       socket.emit('msg-server', RESPONSE_MSG['01'])
       await mensajes.guardarMensaje(RESPONSE_MSG['01'])
@@ -90,19 +94,21 @@ io.on('connection', async (socket) => {
   })
   socket.on('msg-client3', async (data) => {
     await mensajes.guardarMensaje(data)
-
+    logger.info(`Mensaje recibido: ${data.message}`)
     socket.emit('msg-server', RESPONSE_MSG['final'])
     await mensajes.guardarMensaje(RESPONSE_MSG['final'])
   })
 
   socket.on('disconnect', () => {
     console.log('Usuario DESCONECTO')
+    logger.info('Usuario desconectado')
     mensajes.getMensajes()
   })
 })
 
 // -- MIDDLEWARES
 
+app.use(compression())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cors())
@@ -147,4 +153,5 @@ app.use(notFound)
 
 serverHttp.listen(PORT, () => {
   console.log(`servidor iniciado en el puerto ${PORT}`)
+  logger.info(`Servidor Escuchando Y Listo en http://localhost:${PORT}`)
 })
