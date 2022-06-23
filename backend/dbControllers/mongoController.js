@@ -44,7 +44,6 @@ class carrito {
 
    async getCarrito(id){
       const cart = await Carrito.findById(id).populate('productos')
-
       return cart.productos
    }
 
@@ -65,8 +64,8 @@ class carrito {
       const newCart = cart.productos.filter(p => p.id !== prodId)
       logger.info('producto eliminado de carrito')
       cart.productos = newCart
-      cart.save()
-
+      await cart.save()
+      return cart
    }
 }
 

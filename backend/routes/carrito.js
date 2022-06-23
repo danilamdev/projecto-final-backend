@@ -19,9 +19,9 @@ router.post('/', async (req, res) => {
 
 router.post('/:id/productos', async (req, res) => {
   const { id } = req.params
-  const { _id: prodId} = req.body
+  const { _id: productId} = req.body
 
-  await mongoCarrito.saveProdInCarrito(id, prodId)
+  await mongoCarrito.saveProdInCarrito(id, productId)
   res.json({ status: 'producto agregado a carrito' })
 })
 
@@ -33,9 +33,11 @@ router.delete('/:id', async (req, res) => {
 
 router.delete('/:id/productos/:prodId', async (req, res) => {
   const { id, prodId } = req.params
-  const resultado = await mongoCarrito.removeProdInCarrito(id, prodId)
+  const {productos} = await mongoCarrito.removeProdInCarrito(id, prodId)
+  const carrito = await mongoCarrito.getCarrito(id)
+  console.log(carrito)
 
-  res.json({ status: 'producto eliminado del carrito' })
+  res.json({ status: 'producto eliminado del carrito', carrito, productos})
 })
 
 export default router

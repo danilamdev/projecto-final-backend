@@ -2,6 +2,8 @@ import { Strategy } from "passport-local"
 import passport from "passport"
 import bcrypt from "bcrypt"
 import userModel from "../models/usuarios.js"
+import sendMailRegister from "./sendmailRegister.js"
+import logger from "../utils/logger.js"
 
 passport.use("register", new Strategy({ passReqToCallback: true },
         async (req, username, password, done) => {
@@ -11,8 +13,7 @@ passport.use("register", new Strategy({ passReqToCallback: true },
                     console.log("usuario ya existe");
                     return done(null, false);
                 }
-
-                const {nombre, apellido, mail} = req.body
+                const {nombre, apellido, mail, phone} = req.body
                 const passwordHash = await bcrypt.hash(password, 10)
                 
                 const newUser = {
@@ -20,12 +21,15 @@ passport.use("register", new Strategy({ passReqToCallback: true },
                   nombre,
                   apellido,
                   mail,
-                  passwordHash
+                  passwordHash,
+                  phone
                 }
               
                  const usuario = await userModel.create(newUser)
+                await sendMailRegister(usuario)
 
-                 return done(null, usuario)
+                logger.info(`Usuario ${usuario.username} registrado`)
+                return done(null, usuario)
             } catch (error) {
                 console.log('Error ', error);
             }

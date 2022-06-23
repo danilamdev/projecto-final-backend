@@ -1,21 +1,29 @@
 import { useContext, useState } from "react";
 import { productContext } from "../../context/productContext";
 import { addProductToCart, getCarritoById } from "../../services/carrito";
+import { useUser } from "../../context/userContext";
+import { useNavigate } from "react-router-dom";
 import "./card.css";
 
 export default function Card({ producto }) {
   const { setCarrito } = useContext(productContext);
+  const { user } = useUser();
   const [message, setMessage] = useState({ show: false, status: "" });
+  const navigate = useNavigate();
 
   const addProduct = async () => {
-    await addProductToCart(producto);
-    const result = await getCarritoById();
-
-    setCarrito(result.productos.length);
-    setMessage({ show: true, status: "Producto agregado al carrito" });
-    setTimeout(() => {
-      setMessage({ show: false, status: "" });
-    }, 5000);
+    if (!user) {
+      navigate('/login')
+    } else {
+      await addProductToCart(producto);
+      const result = await getCarritoById();
+  
+      setCarrito(result.productos.length);
+      setMessage({ show: true, status: "Producto agregado al carrito" });
+      setTimeout(() => {
+        setMessage({ show: false, status: "" });
+      }, 5000);
+    }
   };
 
   return (

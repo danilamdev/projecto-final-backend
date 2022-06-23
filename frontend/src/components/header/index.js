@@ -36,11 +36,11 @@ export default function Header() {
           null
         )
     }
-      <header className="bg-white shadow-sm w-full">
+      <header className="bg-white w-full">
         <div className="flex justify-between items-center w-11/12 m-auto max-w-screen-lg">
           <Link to={"/"}>
             <h2 className="text-xl tracking-tighter pb-2">
-              <span className="text-4xl font-bold text-pink-500">E</span>
+              <span className="text-4xl font-bold text-indigo-700">E</span>
               commerce
             </h2>
           </Link>
@@ -49,15 +49,18 @@ export default function Header() {
               user 
                 ? (
                   <div className="flex gap-5 p-2 items-center">
-                    <p className="text-base">Bienvenido <span className="font-bold">{user.mail}!</span></p>
-                    <p className="relative after:absolute after:-inset-3 after:border-b-2 after:border-pink-300 after:hidden hover:after:block cursor-pointer ml-4" onClick={handleLogout}>
+                   
+                    <img src={`http://localhost:8080/api/upload/${user._id}`} alt="avatar" className="w-9 h-9 rounded-full m-0" />
+                   
+                    <p className="text-base"> <span className="font-bold">{user.username}</span></p>
+                    <p className="relative after:absolute after:-inset-3 after:border-b-2 after:border-indigo-300 after:hidden hover:after:block cursor-pointer ml-4" onClick={handleLogout}>
                       Logout
                     </p>
                   </div>
                 )
                 : (
                   <Link to={"/login"}>
-                    <p className="relative after:absolute after:-inset-3 after:border-b-2 after:border-pink-300 after:hidden hover:after:block mr-2">
+                    <p className="relative after:absolute after:-inset-3 after:border-b-2 after:border-indigo-300 after:hidden hover:after:block mr-2">
                       Login
                     </p>
                 </Link>

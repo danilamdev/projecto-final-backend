@@ -15,6 +15,7 @@ import authRoutes from './routes/auth.js'
 // const authRoutes = require('./routes/auth.js')
 import infoRoute from './routes/info.js'
 import randomRoute from './routes/randomRoute.js'
+import uploadAvatar from './routes/uploadAvatar.js'
 import './dbControllers/createTable.js'
 import RESPONSE_MSG from './utils/socket_responses.js'
 import mensajes from './dbControllers/sqliteControllers.js'
@@ -22,6 +23,8 @@ import mockProductRoutes from './routes/productos-test.js'
 import { ARGS } from './utils/minimist.js'
 import logger from './utils/logger.js'
 import compression from 'compression'
+import sendMailProducts  from './utils/sendmailProducts.js'
+import {sendMsg, sendWp} from './utils/twilio.js'
 
 // const dotenv = require('dotenv')
 // const express = require('express')
@@ -134,16 +137,29 @@ app.use('/api/carrito', carritoRouter)
 app.use('/api/auth', authRoutes)
 app.use('/info', infoRoute)
 app.use('/api/random', randomRoute)
+app.use('/api/upload', uploadAvatar)
 
 
-app.get('/', (req, res) => {
-  res.send(`
-  <h1>estamos en Server-master en puerto ${process.argv[2] || PORT}</h1>
-  <a href="/info">ir a info</a><br />
-  <h5>balance de carga en /api/random en puertos 8082, 8083 ,8084, 8085</h5>
-  <a href="/api/random">ir a api/random</a>
-  `)
+// app.get('/', (req, res) => {
+//   res.send(`
+//   <h1>estamos en Server-master en puerto ${process.argv[2] || PORT}</h1>
+//   <a href="/info">ir a info</a><br />
+//   <h5>balance de carga en /api/random en puertos 8082, 8083 ,8084, 8085</h5>
+//   <a href="/api/random">ir a api/random</a>
+//   `)
+// })
+
+app.post('/api/checkout', (req, res) => {
+  const info = 'su pedido fue realizado y esta en proceso de envio'
+  const {productos, total} = req.body
+  const user = req.user
+  sendMailProducts(productos, total,user) //Envio de email al usuario que se registra
+  // sendMailProducts(productos, total, admin.mail) //envio de email al administrador
+  sendMsg(info, user.phone)
+  sendWp(`nuevo pedido de ${user.nombre} ,mail: ${user.mail}`, user.phone) 
+  
 })
+
 
 // --Ruta mock productos
 app.use('/api/productos-test', mockProductRoutes)

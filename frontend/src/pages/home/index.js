@@ -19,8 +19,8 @@ export default function Home() {
   return (
     <>
       <Chat />
-      <h1 className="text-4xl text-center font-bold w-3/4 m-auto py-24 md:w-[550px]">
-        Ecomerce CoderHouse BACKEND
+      <h1 className="text-5xl text-center font-bold w-3/4 m-auto py-24 md:w-[550px]">
+        Ecomerce CoderHouse <span className="text-indigo-600">BACKEND</span>
       </h1>
 
       <div className="max-w-md mx-auto mb-8">

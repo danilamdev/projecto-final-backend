@@ -15,7 +15,7 @@ export default function Carrito() {
     <div className="w-12">
       <div className="w-12 scale-50">
         {carrito >= 1 ? (
-          <p className="absolute scale-75 -top-4 -right-5 bg-rose-400 w-12 h-12 grid place-content-center text-white font-bold rounded-full text-3xl">
+          <p className="absolute scale-75 -top-4 -right-5 bg-indigo-500 w-12 h-12 grid place-content-center text-white font-bold rounded-full text-3xl">
             {carrito}
           </p>
         ) : null}

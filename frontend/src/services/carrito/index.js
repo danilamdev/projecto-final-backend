@@ -14,3 +14,9 @@ export async function addProductToCart(producto) {
     body: JSON.stringify(producto),
   }).then((res) => res.json());
 }
+
+export async function removeProductFromCart(productId) {
+  return fetch(`${baseUrl}/${carritoID}/productos/${productId}`, {
+    method: "DELETE",
+  }).then((res) => res.json());
+}
