@@ -31772,3 +31772,1546 @@
   level: 'info',
   timestamp: '2022-06-23T18:46:41.659Z'
 }
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-23T23:54:42.896Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-23T23:54:44.396Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-23T23:55:00.922Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-23T23:55:01.289Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-23T23:55:01.437Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-23T23:55:32.864Z'
+}
+{
+  message: 'Usuario dani registrado',
+  level: 'info',
+  timestamp: '2022-06-23T23:58:31.512Z'
+}
+{
+  message: 'POST /register status OK',
+  level: 'info',
+  timestamp: '2022-06-23T23:58:31.515Z'
+}
+{
+  message: 'mail enviado a dalambarri@live.com correctamente',
+  level: 'info',
+  timestamp: '2022-06-23T23:58:34.302Z'
+}
+{
+  message: 'POST /login status OK',
+  level: 'info',
+  timestamp: '2022-06-23T23:58:40.787Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-23T23:58:41.309Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-23T23:58:53.117Z'
+}
+{
+  message: 'producto eliminado de carrito',
+  level: 'info',
+  timestamp: '2022-06-23T23:59:49.886Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-23T23:59:55.817Z'
+}
+{
+  message: {
+    body: 'nuevo pedido de daniel ,mail: dalambarri@live.com',
+    numSegments: '1',
+    direction: 'outbound-api',
+    from: 'whatsapp:+14155238886',
+    to: 'whatsapp:+5491167231003',
+    dateUpdated: 2022-06-23T23:59:56.000Z,
+    price: null,
+    errorMessage: null,
+    uri: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SMf17832f4eeba4f1196560e5890840ce7.json',
+    accountSid: 'ACf9cd021c8836f86f561243b769e8829a',
+    numMedia: '0',
+    status: 'queued',
+    messagingServiceSid: null,
+    sid: 'SMf17832f4eeba4f1196560e5890840ce7',
+    dateSent: null,
+    dateCreated: 2022-06-23T23:59:56.000Z,
+    errorCode: null,
+    priceUnit: null,
+    apiVersion: '2010-04-01',
+    subresourceUris: {
+      media: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SMf17832f4eeba4f1196560e5890840ce7/Media.json'
+    }
+  },
+  level: 'info',
+  timestamp: '2022-06-23T23:59:55.824Z'
+}
+{
+  message: 'mail enviado a dalambarri@live.com correctamente',
+  level: 'info',
+  timestamp: '2022-06-23T23:59:57.312Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:10:26.825Z'
+}
+{
+  message: 'POST /login status OK',
+  level: 'info',
+  timestamp: '2022-06-24T00:12:23.870Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:12:25.517Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:12:48.514Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:13:29.527Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:13:29.588Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:13:31.449Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:13:48.429Z'
+}
+{
+  message: 'GET /logout',
+  level: 'info',
+  timestamp: '2022-06-24T00:13:49.927Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:13:56.544Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:13:57.653Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:14:00.043Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:14:01.482Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:14:06.987Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:14:07.042Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:14:07.163Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:14:07.419Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:14:07.986Z'
+}
+{
+  message: 'POST /login status OK',
+  level: 'info',
+  timestamp: '2022-06-24T00:14:12.945Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:14:13.642Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:14:13.764Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:14:41.796Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:14:41.815Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:14:42.082Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:14:42.207Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:14:43.858Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:15:32.276Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:15:32.437Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:15:33.416Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:18:42.119Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:18:42.348Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:18:43.729Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:18:47.851Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:18:53.416Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:18:53.499Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:19:06.828Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:19:09.286Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:19:09.373Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:19:11.759Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:19:13.348Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:19:13.418Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:19:15.710Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:19:17.974Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:19:18.052Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:22:33.232Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T00:23:47.423Z'
+}
+{
+  message: {
+    body: 'nuevo pedido de daniel ,mail: dalambarri@live.com',
+    numSegments: '1',
+    direction: 'outbound-api',
+    from: 'whatsapp:+14155238886',
+    to: 'whatsapp:+5491167231003',
+    dateUpdated: 2022-06-24T00:23:47.000Z,
+    price: null,
+    errorMessage: null,
+    uri: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM97a872c37ab74bd8815e36cdc7454ab4.json',
+    accountSid: 'ACf9cd021c8836f86f561243b769e8829a',
+    numMedia: '0',
+    status: 'queued',
+    messagingServiceSid: null,
+    sid: 'SM97a872c37ab74bd8815e36cdc7454ab4',
+    dateSent: null,
+    dateCreated: 2022-06-24T00:23:47.000Z,
+    errorCode: null,
+    priceUnit: null,
+    apiVersion: '2010-04-01',
+    subresourceUris: {
+      media: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM97a872c37ab74bd8815e36cdc7454ab4/Media.json'
+    }
+  },
+  level: 'info',
+  timestamp: '2022-06-24T00:23:47.583Z'
+}
+{
+  message: 'mail enviado a dalambarri@live.com correctamente',
+  level: 'info',
+  timestamp: '2022-06-24T00:23:48.877Z'
+}
+{
+  message: 'producto eliminado de carrito',
+  level: 'info',
+  timestamp: '2022-06-24T00:26:07.955Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:26:14.850Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-24T00:27:04.650Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-24T00:27:06.105Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:27:06.124Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:27:09.004Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:27:10.093Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-24T00:28:34.238Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-24T00:28:35.620Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:28:36.369Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:28:36.372Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:28:36.921Z'
+}
+{
+  message: 'GET /logout',
+  level: 'info',
+  timestamp: '2022-06-24T00:28:39.565Z'
+}
+{
+  message: 'POST /login status OK',
+  level: 'info',
+  timestamp: '2022-06-24T00:28:46.393Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:28:47.215Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T00:29:00.314Z'
+}
+{
+  message: {
+    body: 'nuevo pedido de daniel ,mail: dalambarri@live.com',
+    numSegments: '1',
+    direction: 'outbound-api',
+    from: 'whatsapp:+14155238886',
+    to: 'whatsapp:+5491167231003',
+    dateUpdated: 2022-06-24T00:29:00.000Z,
+    price: null,
+    errorMessage: null,
+    uri: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM7c8fff0c51804e32983ab047f4abd71a.json',
+    accountSid: 'ACf9cd021c8836f86f561243b769e8829a',
+    numMedia: '0',
+    status: 'queued',
+    messagingServiceSid: null,
+    sid: 'SM7c8fff0c51804e32983ab047f4abd71a',
+    dateSent: null,
+    dateCreated: 2022-06-24T00:29:00.000Z,
+    errorCode: null,
+    priceUnit: null,
+    apiVersion: '2010-04-01',
+    subresourceUris: {
+      media: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM7c8fff0c51804e32983ab047f4abd71a/Media.json'
+    }
+  },
+  level: 'info',
+  timestamp: '2022-06-24T00:29:00.322Z'
+}
+{
+  message: 'mail enviado a dalambarri@live.com correctamente',
+  level: 'info',
+  timestamp: '2022-06-24T00:29:01.606Z'
+}
+{
+  message: 'producto eliminado de carrito',
+  level: 'info',
+  timestamp: '2022-06-24T00:29:12.037Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:30:29.233Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T00:30:33.346Z'
+}
+{
+  message: {
+    body: 'nuevo pedido de daniel ,mail: dalambarri@live.com',
+    numSegments: '1',
+    direction: 'outbound-api',
+    from: 'whatsapp:+14155238886',
+    to: 'whatsapp:+5491167231003',
+    dateUpdated: 2022-06-24T00:30:33.000Z,
+    price: null,
+    errorMessage: null,
+    uri: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM8db18651bcde48c2a95c0a2f7617e1e0.json',
+    accountSid: 'ACf9cd021c8836f86f561243b769e8829a',
+    numMedia: '0',
+    status: 'queued',
+    messagingServiceSid: null,
+    sid: 'SM8db18651bcde48c2a95c0a2f7617e1e0',
+    dateSent: null,
+    dateCreated: 2022-06-24T00:30:33.000Z,
+    errorCode: null,
+    priceUnit: null,
+    apiVersion: '2010-04-01',
+    subresourceUris: {
+      media: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM8db18651bcde48c2a95c0a2f7617e1e0/Media.json'
+    }
+  },
+  level: 'info',
+  timestamp: '2022-06-24T00:30:33.360Z'
+}
+{
+  message: 'mail enviado a dalambarri@live.com correctamente',
+  level: 'info',
+  timestamp: '2022-06-24T00:30:34.747Z'
+}
+{
+  message: {
+    body: 'nuevo pedido de daniel ,mail: dalambarri@live.com',
+    numSegments: '1',
+    direction: 'outbound-api',
+    from: 'whatsapp:+14155238886',
+    to: 'whatsapp:+5491167231003',
+    dateUpdated: 2022-06-24T00:31:20.000Z,
+    price: null,
+    errorMessage: null,
+    uri: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SMe755a3f44ab24ac4a09a8d0369575b3a.json',
+    accountSid: 'ACf9cd021c8836f86f561243b769e8829a',
+    numMedia: '0',
+    status: 'queued',
+    messagingServiceSid: null,
+    sid: 'SMe755a3f44ab24ac4a09a8d0369575b3a',
+    dateSent: null,
+    dateCreated: 2022-06-24T00:31:20.000Z,
+    errorCode: null,
+    priceUnit: null,
+    apiVersion: '2010-04-01',
+    subresourceUris: {
+      media: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SMe755a3f44ab24ac4a09a8d0369575b3a/Media.json'
+    }
+  },
+  level: 'info',
+  timestamp: '2022-06-24T00:31:20.059Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T00:31:20.064Z'
+}
+{
+  message: 'mail enviado a dalambarri@live.com correctamente',
+  level: 'info',
+  timestamp: '2022-06-24T00:31:21.376Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:31:53.674Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T00:32:25.906Z'
+}
+{
+  message: {
+    body: 'nuevo pedido de daniel ,mail: dalambarri@live.com',
+    numSegments: '1',
+    direction: 'outbound-api',
+    from: 'whatsapp:+14155238886',
+    to: 'whatsapp:+5491167231003',
+    dateUpdated: 2022-06-24T00:32:26.000Z,
+    price: null,
+    errorMessage: null,
+    uri: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SMe7966a6e9fe6474f88415bc17b2705b3.json',
+    accountSid: 'ACf9cd021c8836f86f561243b769e8829a',
+    numMedia: '0',
+    status: 'queued',
+    messagingServiceSid: null,
+    sid: 'SMe7966a6e9fe6474f88415bc17b2705b3',
+    dateSent: null,
+    dateCreated: 2022-06-24T00:32:26.000Z,
+    errorCode: null,
+    priceUnit: null,
+    apiVersion: '2010-04-01',
+    subresourceUris: {
+      media: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SMe7966a6e9fe6474f88415bc17b2705b3/Media.json'
+    }
+  },
+  level: 'info',
+  timestamp: '2022-06-24T00:32:25.941Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T00:32:26.536Z'
+}
+{
+  message: {
+    body: 'nuevo pedido de daniel ,mail: dalambarri@live.com',
+    numSegments: '1',
+    direction: 'outbound-api',
+    from: 'whatsapp:+14155238886',
+    to: 'whatsapp:+5491167231003',
+    dateUpdated: 2022-06-24T00:32:26.000Z,
+    price: null,
+    errorMessage: null,
+    uri: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM6ac0950c7df14ea8806d4353df779265.json',
+    accountSid: 'ACf9cd021c8836f86f561243b769e8829a',
+    numMedia: '0',
+    status: 'queued',
+    messagingServiceSid: null,
+    sid: 'SM6ac0950c7df14ea8806d4353df779265',
+    dateSent: null,
+    dateCreated: 2022-06-24T00:32:26.000Z,
+    errorCode: null,
+    priceUnit: null,
+    apiVersion: '2010-04-01',
+    subresourceUris: {
+      media: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM6ac0950c7df14ea8806d4353df779265/Media.json'
+    }
+  },
+  level: 'info',
+  timestamp: '2022-06-24T00:32:26.537Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T00:32:26.564Z'
+}
+{
+  message: {
+    body: 'nuevo pedido de daniel ,mail: dalambarri@live.com',
+    numSegments: '1',
+    direction: 'outbound-api',
+    from: 'whatsapp:+14155238886',
+    to: 'whatsapp:+5491167231003',
+    dateUpdated: 2022-06-24T00:32:26.000Z,
+    price: null,
+    errorMessage: null,
+    uri: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM8092ece485f045119793ccc85727a4b4.json',
+    accountSid: 'ACf9cd021c8836f86f561243b769e8829a',
+    numMedia: '0',
+    status: 'queued',
+    messagingServiceSid: null,
+    sid: 'SM8092ece485f045119793ccc85727a4b4',
+    dateSent: null,
+    dateCreated: 2022-06-24T00:32:26.000Z,
+    errorCode: null,
+    priceUnit: null,
+    apiVersion: '2010-04-01',
+    subresourceUris: {
+      media: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM8092ece485f045119793ccc85727a4b4/Media.json'
+    }
+  },
+  level: 'info',
+  timestamp: '2022-06-24T00:32:26.607Z'
+}
+{
+  message: 'mail enviado a dalambarri@live.com correctamente',
+  level: 'info',
+  timestamp: '2022-06-24T00:32:26.977Z'
+}
+{
+  message: 'mail enviado a dalambarri@live.com correctamente',
+  level: 'info',
+  timestamp: '2022-06-24T00:32:27.752Z'
+}
+{
+  message: 'mail enviado a dalambarri@live.com correctamente',
+  level: 'info',
+  timestamp: '2022-06-24T00:32:28.083Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:32:44.015Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:32:44.318Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:32:44.943Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-24T00:33:17.701Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-24T00:33:18.908Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:33:23.164Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:33:23.302Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:33:24.589Z'
+}
+{
+  message: 'GET /logout',
+  level: 'info',
+  timestamp: '2022-06-24T00:33:29.415Z'
+}
+{
+  message: 'POST /login status OK',
+  level: 'info',
+  timestamp: '2022-06-24T00:33:35.314Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:33:36.109Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:34:12.431Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:34:12.482Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:34:13.066Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:34:13.187Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:34:16.084Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:38:21.459Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:38:21.584Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:38:23.668Z'
+}
+{
+  message: 'Ruta /cart/check.svg, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:39:04.161Z'
+}
+{
+  message: 'Ruta /cart/check, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:40:25.653Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:45:59.595Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:45:59.975Z'
+}
+{
+  message: 'POST /login status OK',
+  level: 'info',
+  timestamp: '2022-06-24T00:46:03.023Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:46:03.765Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:46:50.077Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:46:50.748Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:46:50.852Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:46:52.391Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:51:25.695Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:51:25.891Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:51:27.106Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:52:07.729Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:52:07.839Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:52:09.231Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:53:07.569Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:53:07.759Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:53:08.863Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:53:36.891Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:53:37.036Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:53:38.407Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T00:59:01.544Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T00:59:02.009Z'
+}
+{
+  message: 'POST /login status OK',
+  level: 'info',
+  timestamp: '2022-06-24T00:59:07.829Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T00:59:08.488Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:00:19.206Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T01:00:19.962Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T01:00:20.192Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T01:00:21.098Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:10:14.853Z'
+}
+{
+  message: 'GET /logout',
+  level: 'info',
+  timestamp: '2022-06-24T01:10:16.609Z'
+}
+{
+  message: 'POST /login status OK',
+  level: 'info',
+  timestamp: '2022-06-24T01:10:21.835Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:10:22.538Z'
+}
+{
+  message: {
+    body: 'nuevo pedido de daniel ,mail: dalambarri@live.com',
+    numSegments: '1',
+    direction: 'outbound-api',
+    from: 'whatsapp:+14155238886',
+    to: 'whatsapp:+5491167231003',
+    dateUpdated: 2022-06-24T01:11:03.000Z,
+    price: null,
+    errorMessage: null,
+    uri: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SMad4b7bb55890486b88936cd5e9e4ed63.json',
+    accountSid: 'ACf9cd021c8836f86f561243b769e8829a',
+    numMedia: '0',
+    status: 'queued',
+    messagingServiceSid: null,
+    sid: 'SMad4b7bb55890486b88936cd5e9e4ed63',
+    dateSent: null,
+    dateCreated: 2022-06-24T01:11:03.000Z,
+    errorCode: null,
+    priceUnit: null,
+    apiVersion: '2010-04-01',
+    subresourceUris: {
+      media: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SMad4b7bb55890486b88936cd5e9e4ed63/Media.json'
+    }
+  },
+  level: 'info',
+  timestamp: '2022-06-24T01:11:03.139Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T01:11:03.145Z'
+}
+{
+  message: 'mail enviado a dalambarri@live.com correctamente',
+  level: 'info',
+  timestamp: '2022-06-24T01:11:05.041Z'
+}
+{
+  message: {
+    body: 'nuevo pedido de daniel ,mail: dalambarri@live.com',
+    numSegments: '1',
+    direction: 'outbound-api',
+    from: 'whatsapp:+14155238886',
+    to: 'whatsapp:+5491167231003',
+    dateUpdated: 2022-06-24T01:12:12.000Z,
+    price: null,
+    errorMessage: null,
+    uri: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM299a5cdae66c4d45a2b2ebfb81471c62.json',
+    accountSid: 'ACf9cd021c8836f86f561243b769e8829a',
+    numMedia: '0',
+    status: 'queued',
+    messagingServiceSid: null,
+    sid: 'SM299a5cdae66c4d45a2b2ebfb81471c62',
+    dateSent: null,
+    dateCreated: 2022-06-24T01:12:12.000Z,
+    errorCode: null,
+    priceUnit: null,
+    apiVersion: '2010-04-01',
+    subresourceUris: {
+      media: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM299a5cdae66c4d45a2b2ebfb81471c62/Media.json'
+    }
+  },
+  level: 'info',
+  timestamp: '2022-06-24T01:12:12.137Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T01:12:12.218Z'
+}
+{
+  message: 'mail enviado a dalambarri@live.com correctamente',
+  level: 'info',
+  timestamp: '2022-06-24T01:12:13.432Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:13:36.309Z'
+}
+{
+  message: 'producto eliminado de carrito',
+  level: 'info',
+  timestamp: '2022-06-24T01:13:40.484Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:14:18.699Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:15:43.421Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T01:15:44.130Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T01:15:44.275Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:16:03.106Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:16:12.151Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:16:18.666Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:17:11.774Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:27:05.080Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T01:27:05.335Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T01:27:05.635Z'
+}
+{
+  message: 'POST /login status OK',
+  level: 'info',
+  timestamp: '2022-06-24T01:27:08.477Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:27:08.873Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:33:06.554Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T01:33:07.272Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T01:33:07.450Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T01:33:08.964Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T01:34:16.992Z'
+}
+{
+  message: 'Ruta /cart/placeholder.png, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T01:36:25.918Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:36:38.620Z'
+}
+{
+  message: {
+    body: 'nuevo pedido de daniel ,mail: dalambarri@live.com',
+    numSegments: '1',
+    direction: 'outbound-api',
+    from: 'whatsapp:+14155238886',
+    to: 'whatsapp:+5491167231003',
+    dateUpdated: 2022-06-24T01:36:48.000Z,
+    price: null,
+    errorMessage: null,
+    uri: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM7041107aeade46a1a0c4b2a498360bfb.json',
+    accountSid: 'ACf9cd021c8836f86f561243b769e8829a',
+    numMedia: '0',
+    status: 'queued',
+    messagingServiceSid: null,
+    sid: 'SM7041107aeade46a1a0c4b2a498360bfb',
+    dateSent: null,
+    dateCreated: 2022-06-24T01:36:48.000Z,
+    errorCode: null,
+    priceUnit: null,
+    apiVersion: '2010-04-01',
+    subresourceUris: {
+      media: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM7041107aeade46a1a0c4b2a498360bfb/Media.json'
+    }
+  },
+  level: 'info',
+  timestamp: '2022-06-24T01:36:48.249Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T01:36:48.289Z'
+}
+{
+  message: 'mail enviado a dalambarri@live.com correctamente',
+  level: 'info',
+  timestamp: '2022-06-24T01:36:49.856Z'
+}
+{
+  message: 'producto eliminado de carrito',
+  level: 'info',
+  timestamp: '2022-06-24T01:38:43.310Z'
+}
+{
+  message: 'producto eliminado de carrito',
+  level: 'info',
+  timestamp: '2022-06-24T01:38:46.054Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:38:49.532Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:38:58.845Z'
+}
+{
+  message: 'GET /logout',
+  level: 'info',
+  timestamp: '2022-06-24T01:42:19.128Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T01:44:52.716Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T01:44:53.017Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:45:23.740Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:45:27.879Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T01:45:29.972Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T01:45:29.975Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T01:45:32.464Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T01:45:32.741Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:45:37.459Z'
+}
+{
+  message: 'POST /login status OK',
+  level: 'info',
+  timestamp: '2022-06-24T01:51:37.367Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:51:37.770Z'
+}
+{
+  message: 'producto guardado en mongodb',
+  level: 'info',
+  timestamp: '2022-06-24T01:52:35.264Z'
+}
+{
+  message: 'POST api/productos producto agregado',
+  level: 'info',
+  timestamp: '2022-06-24T01:52:35.265Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T01:59:36.306Z'
+}
+{
+  message: 'producto guardado en mongodb',
+  level: 'info',
+  timestamp: '2022-06-24T02:02:25.968Z'
+}
+{
+  message: 'POST api/productos producto agregado',
+  level: 'info',
+  timestamp: '2022-06-24T02:02:25.969Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-24T02:04:08.481Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-24T02:04:09.405Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:04:11.389Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:04:11.687Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:04:12.235Z'
+}
+{
+  message: 'POST /login status OK',
+  level: 'info',
+  timestamp: '2022-06-24T02:04:16.964Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:04:17.676Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T02:04:25.455Z'
+}
+{
+  message: {
+    body: 'nuevo pedido de daniel ,mail: dalambarri@live.com',
+    numSegments: '1',
+    direction: 'outbound-api',
+    from: 'whatsapp:+14155238886',
+    to: 'whatsapp:+5491167231003',
+    dateUpdated: 2022-06-24T02:04:25.000Z,
+    price: null,
+    errorMessage: null,
+    uri: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SMfa0f7b4715de4f6db4f28c4458089fe3.json',
+    accountSid: 'ACf9cd021c8836f86f561243b769e8829a',
+    numMedia: '0',
+    status: 'queued',
+    messagingServiceSid: null,
+    sid: 'SMfa0f7b4715de4f6db4f28c4458089fe3',
+    dateSent: null,
+    dateCreated: 2022-06-24T02:04:25.000Z,
+    errorCode: null,
+    priceUnit: null,
+    apiVersion: '2010-04-01',
+    subresourceUris: {
+      media: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SMfa0f7b4715de4f6db4f28c4458089fe3/Media.json'
+    }
+  },
+  level: 'info',
+  timestamp: '2022-06-24T02:04:25.554Z'
+}
+{
+  message: 'mail enviado a dalambarri@live.com correctamente',
+  level: 'info',
+  timestamp: '2022-06-24T02:04:27.216Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T02:06:28.850Z'
+}
+{
+  message: {
+    body: 'nuevo pedido de daniel ,mail: dalambarri@live.com',
+    numSegments: '1',
+    direction: 'outbound-api',
+    from: 'whatsapp:+14155238886',
+    to: 'whatsapp:+5491167231003',
+    dateUpdated: 2022-06-24T02:06:29.000Z,
+    price: null,
+    errorMessage: null,
+    uri: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM9d59d1e1ff4f409e97b64494ddc9604b.json',
+    accountSid: 'ACf9cd021c8836f86f561243b769e8829a',
+    numMedia: '0',
+    status: 'queued',
+    messagingServiceSid: null,
+    sid: 'SM9d59d1e1ff4f409e97b64494ddc9604b',
+    dateSent: null,
+    dateCreated: 2022-06-24T02:06:29.000Z,
+    errorCode: null,
+    priceUnit: null,
+    apiVersion: '2010-04-01',
+    subresourceUris: {
+      media: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM9d59d1e1ff4f409e97b64494ddc9604b/Media.json'
+    }
+  },
+  level: 'info',
+  timestamp: '2022-06-24T02:06:28.875Z'
+}
+{
+  message: 'mail enviado a dalambarri@live.com correctamente',
+  level: 'info',
+  timestamp: '2022-06-24T02:06:30.681Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:06:44.489Z'
+}
+{
+  message: 'producto eliminado de carrito',
+  level: 'info',
+  timestamp: '2022-06-24T02:07:08.550Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T02:07:08.895Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:07:08.975Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T02:07:09.133Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:07:12.501Z'
+}
+{
+  message: 'GET /logout',
+  level: 'info',
+  timestamp: '2022-06-24T02:07:18.472Z'
+}
+{
+  message: 'POST /login status OK',
+  level: 'info',
+  timestamp: '2022-06-24T02:07:24.325Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:07:25.012Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:07:28.022Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:07:28.893Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:07:29.189Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:07:30.136Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:10:54.947Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:10:54.956Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-24T02:12:46.222Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-24T02:12:46.495Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:12:46.624Z'
+}
+{
+  message: 'producto eliminado de carrito',
+  level: 'info',
+  timestamp: '2022-06-24T02:12:52.483Z'
+}
+{
+  message: 'GET /logout',
+  level: 'info',
+  timestamp: '2022-06-24T02:12:56.027Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:13:00.326Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:13:09.518Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-24T02:13:09.536Z'
+}

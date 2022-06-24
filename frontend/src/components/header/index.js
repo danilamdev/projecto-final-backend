@@ -49,9 +49,7 @@ export default function Header() {
               user 
                 ? (
                   <div className="flex gap-5 p-2 items-center">
-                   
                     <img src={`http://localhost:8080/api/upload/${user._id}`} alt="avatar" className="w-9 h-9 rounded-full m-0" />
-                   
                     <p className="text-base"> <span className="font-bold">{user.username}</span></p>
                     <p className="relative after:absolute after:-inset-3 after:border-b-2 after:border-indigo-300 after:hidden hover:after:block cursor-pointer ml-4" onClick={handleLogout}>
                       Logout
@@ -66,8 +64,6 @@ export default function Header() {
                 </Link>
                 )
             }
-            
-          
             <Link to={"/cart"}>
               <Carrito />
             </Link>

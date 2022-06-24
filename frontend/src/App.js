@@ -8,6 +8,7 @@ import LoginPage from "./pages/loginPage";
 import RegisterPage from "./pages/register";
 import RegisterSuccess from "./pages/registerSuccess";
 import RegisterForm from "./components/registerForm";
+import CompraExitosa from "./components/compraExitosa/compraExitosa";
 import Header from "./components/header";
 import { useUser } from "./context/userContext";
 import Loader from "./components/loader";
@@ -38,7 +39,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/mock" element={<Mock />} />
-        <Route path="/cart" element={<CartPage />} />
+        <Route path="/cart" element={<CartPage />}>
+          <Route path="compraExitosa" element={<CompraExitosa />} />
+        </Route>
         <Route path="/login" element={<LoginPage />} />
        
         <Route path="/register" element={<RegisterPage />}>

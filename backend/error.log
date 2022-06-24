@@ -56,3 +56,107 @@
   level: 'error',
   timestamp: '2022-06-23T18:39:22.354Z'
 }
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-23T23:59:55.817Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T00:23:47.423Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T00:29:00.314Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T00:30:33.346Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T00:31:20.064Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T00:32:25.906Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T00:32:26.536Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T00:32:26.564Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T01:11:03.145Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T01:12:12.218Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T01:36:48.289Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T02:04:25.455Z'
+}
+{
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-06-24T02:06:28.850Z'
+}

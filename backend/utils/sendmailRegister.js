@@ -13,7 +13,7 @@ const transporterGmail = nodemailer.createTransport({
     }
 })
 
-const sendMail = async (user) => {
+const sendMail = async (user) => { 
   let maildata = `
   <h1>Se a Registrado un Nuevo Usuario en la WEB</h1>
   <br>

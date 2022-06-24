@@ -45,7 +45,7 @@ export default function Form() {
   };
 
   return (
-    <section className="w-11/12 max-w-lg mx-auto shadow-lg shadow-pink-300/50 px-12 py-10 mt-10 mb-12 bg-white rounded-lg">
+    <section className="w-11/12 max-w-lg mx-auto shadow-sm px-12 py-10 mt-10 mb-12 bg-white rounded-lg">
       <h4 className="font-bold text-2xl my-5s uppercase">Formulario</h4>
       <form
         onSubmit={handleSubmit}
@@ -66,7 +66,7 @@ export default function Form() {
             id="nombre"
             onChange={handleChange}
             value={newProduct.nombre}
-            className="p-2 rounded-sm bg-slate-100 focus:outline-1 focus:outline-pink-400/40"
+            className="p-2 rounded-sm bg-slate-100 focus:outline-1 focus:outline-indigo-400/40"
           />
         </div>
         <div className="flex flex-col">
@@ -79,7 +79,7 @@ export default function Form() {
             id="descripcion"
             onChange={handleChange}
             value={newProduct.descripcion}
-            className="p-2 rounded-sm bg-slate-100 focus:outline-1 focus:outline-pink-400/40"
+            className="p-2 rounded-sm bg-slate-100 focus:outline-1 focus:outline-indigo-400/40"
           />
         </div>
         <div className="flex flex-col">
@@ -92,7 +92,7 @@ export default function Form() {
             id="precio"
             onChange={handleChange}
             value={newProduct.precio}
-            className="p-2 rounded-sm bg-slate-100 focus:outline-1 focus:outline-pink-400/40"
+            className="p-2 rounded-sm bg-slate-100 focus:outline-1 focus:outline-indigo-400/40"
           />
         </div>
         <div className="flex flex-col">
@@ -105,7 +105,7 @@ export default function Form() {
             id="stock"
             onChange={handleChange}
             value={newProduct.stock}
-            className="p-2 rounded-sm bg-slate-100 focus:outline-1 focus:outline-pink-400/40"
+            className="p-2 rounded-sm bg-slate-100 focus:outline-1 focus:outline-indigo-400/40"
           />
         </div>
         <div className="flex flex-col">
@@ -118,7 +118,7 @@ export default function Form() {
             id="codigo"
             onChange={handleChange}
             value={newProduct.codigo}
-            className="p-2 rounded-sm bg-slate-100 focus:outline-1 focus:outline-pink-400/40"
+            className="p-2 rounded-sm bg-slate-100 focus:outline-1 focus:outline-indigo-400/40"
           />
         </div>
         <div className="flex flex-col mb-10">
@@ -131,10 +131,10 @@ export default function Form() {
             id="foto"
             onChange={handleChange}
             value={newProduct.foto}
-            className="p-2 rounded-sm bg-slate-100 focus:outline-1 focus:outline-pink-400/40"
+            className="p-2 rounded-sm bg-slate-100 focus:outline-1 focus:outline-indigo-400/40"
           />
         </div>
-        <button className="bg-pink-600 text-white font-semibold text-base py-3 rounded-md hover:bg-pink-500">
+        <button className="bg-indigo-600 text-white font-semibold text-base py-3 rounded-md hover:bg-indigo-500">
           Crear producto
         </button>
       </form>

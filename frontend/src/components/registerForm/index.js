@@ -56,7 +56,7 @@ if(loading) return <Loader />
 
   return (
     <>
-    <section className="bg-white max-w-lg w-11/12 mx-auto flex flex-col mt-32 rounded-xl shadow-md">
+    <section className="bg-white max-w-3xl w-11/12 mx-auto flex flex-col mt-32 rounded-xl shadow-md">
       <h2 className="text-center font-bold text-4xl my-8">Signup</h2>
       {error && <p className="shadow shadow-red-300 bg-red-100 w-52 p-2 mx-auto text-red-500 text-center">{error.msg}</p>}
       <div>
@@ -79,8 +79,8 @@ if(loading) return <Loader />
           <label htmlFor="telefono" className="text-lg">telefono</label>
           <input type="text" name="username" value={phone} onChange={(e) => setPhone(e.target.value)} className="p-3 rounded-md shadow-sm border bg-slate-50"/>
 
-          <label htmlFor="avatar" className="text-lg"></label>
-          <input type="file" name="avatar" required onChange={(e)=> setFile(e.target.files[0])} className="p-3 rounded-md shadow-sm border bg-slate-50"/>
+          <label htmlFor="avatar" className="text-lg">Avatar</label>
+          <input type="file" name="avatar" required  onChange={(e)=> setFile(e.target.files[0])} className="p-3 rounded-md shadow-sm border bg-slate-50 "/>
 
           <button className="bg-indigo-400 font-bold p-3 rounded-md text-white text-xl mt-8 hover:bg-indigo-300">Crear cuenta</button>
           <small>Ya tenes una cuenta?<span className="text-indigo-400"><Link to={'/login'}> Inicia Sesion</Link></span> </small>
