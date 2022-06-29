@@ -33315,3 +33315,438 @@
   level: 'info',
   timestamp: '2022-06-24T02:13:09.536Z'
 }
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T16:04:47.947Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T16:04:48.641Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T16:16:19.862Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T16:16:20.887Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T16:53:55.324Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T16:53:56.023Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T16:55:48.184Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T16:55:48.858Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T16:55:54.588Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T16:55:55.231Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T16:55:57.362Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T16:55:57.966Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T16:56:05.402Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T16:56:05.997Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T16:56:25.128Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T16:56:25.775Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T16:58:02.124Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T16:58:02.749Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T16:58:33.244Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T16:58:33.849Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T16:58:36.961Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T16:58:37.615Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T17:00:01.688Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T17:00:02.422Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T17:00:31.359Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T17:00:31.970Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T17:00:35.897Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T17:00:36.513Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T17:02:52.732Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T17:02:53.398Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T17:03:52.403Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T17:03:53.062Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T17:04:03.535Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T17:04:04.144Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T17:04:18.017Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T17:04:18.677Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T17:29:40.695Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T17:29:41.339Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T18:04:36.691Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T18:04:37.405Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T18:10:18.962Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T18:10:19.608Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T18:10:51.907Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T18:10:52.516Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T18:11:52.900Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T18:11:53.605Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T18:12:32.011Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T18:12:32.607Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-06-29T18:12:56.899Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-06-29T18:12:57.266Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T18:12:57.307Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T18:13:02.823Z'
+}
+{
+  message: 'Usuario test registrado',
+  level: 'info',
+  timestamp: '2022-06-29T18:13:30.027Z'
+}
+{
+  message: 'POST /register status OK',
+  level: 'info',
+  timestamp: '2022-06-29T18:13:30.031Z'
+}
+{
+  message: 'mail enviado a test@gmail.com correctamente',
+  level: 'info',
+  timestamp: '2022-06-29T18:13:32.963Z'
+}
+{
+  message: 'POST /login status OK',
+  level: 'info',
+  timestamp: '2022-06-29T18:13:38.677Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T18:13:39.075Z'
+}
+{
+  message: 'GET /logout',
+  level: 'info',
+  timestamp: '2022-06-29T18:14:04.718Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T18:14:10.859Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T18:25:51.453Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T18:25:52.117Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T18:25:52.163Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T18:25:53.775Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T18:25:53.778Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T18:25:54.768Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T18:27:19.365Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T18:27:20.067Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T18:27:20.681Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T18:27:21.366Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T18:27:21.442Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T18:27:21.566Z'
+}
+{
+  message: 'Usuario test2 registrado',
+  level: 'info',
+  timestamp: '2022-06-29T18:28:24.764Z'
+}
+{
+  message: 'POST /register status OK',
+  level: 'info',
+  timestamp: '2022-06-29T18:28:24.773Z'
+}
+{
+  message: 'mail enviado a test2@hotmail.com correctamente',
+  level: 'info',
+  timestamp: '2022-06-29T18:28:27.704Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T19:35:14.637Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-06-29T19:35:21.541Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-06-29T19:35:22.381Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T19:35:22.813Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T19:35:22.820Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T19:35:23.744Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T19:35:23.777Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-06-29T19:35:24.089Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-29T19:35:39.784Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-29T19:35:39.911Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-29T19:35:39.922Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-29T19:35:39.943Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-06-29T19:35:39.953Z'
+}

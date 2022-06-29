@@ -1,33 +1,24 @@
-import express from 'express'
-// import { productController } from '../fileControllers/classController.js'
-// import { productService } from '../dbControllers/mysqlController.js'
-import { mongoProduct } from '../dbControllers/mongoController.js'
-import { fireStoreProduct } from '../dbControllers/firabaseController.js'
+import {productService} from '../services/product.services.js'
 import logger from '../utils/logger.js'
 
-const router = express.Router()
+const ADMIN = true
 
-export const ADMIN = true
-
-router.get('/:id?', async (req, res) => {
+const getProducts =  async (req, res) => {
   const { id } = req.params
-  const productos = await mongoProduct.getAll() //--USANDO MONGODB
-  // const productos = await fireStoreProduct.getAll() //--USANDO FIRESTORE
+  const productos = await productService.getAll() //--USANDO MONGODB
 
   if (typeof id === 'undefined') {
     return res.json(productos)
   }
-
-  const producto = await mongoProduct.getById(id) //--USANDO MONGODB
-  // const producto = await fireStoreProduct.getById(id) //--USANDO FIRESTORE
+  const producto = await productService.getById(id) //--USANDO MONGODB
 
   if (producto.length === 0) return res.status(404).json({ error: 'no se encontro el producto...' })
 
   logger.info('producto encontrado en mongodb')
   return res.json(producto)
-})
+}
 
-router.post('/', async (req, res) => {
+const createProducts = async (req, res) => {
   if (!ADMIN)
     return res
       .status(401)
@@ -38,15 +29,13 @@ router.post('/', async (req, res) => {
       .end()
 
   const { body } = req
-
-  const nuevoProducto = await mongoProduct.saveProduct(body) //--USANDO MONGO
-  // const nuevoProducto = await fireStoreProduct.saveProduct(body)//--USANDO FIRESTORE
+  const nuevoProducto = await productService.saveProduct(body) //--USANDO MONGO
 
   res.json({ status: 'producto agregado', nuevoProducto })
   logger.info('POST api/productos producto agregado')
-})
+}
 
-router.delete('/:id', async (req, res) => {
+const deleteProduct =  async (req, res) => {
   if (!ADMIN)
     return res
       .status(401)
@@ -57,14 +46,13 @@ router.delete('/:id', async (req, res) => {
       .end()
 
   const { id } = req.params
-  await mongoProduct.removeById(id) //--USANDO MONGO
-  // await fireStoreProduct.removeById(id)//--USANDO FIRESTORE
+  await productService.removeById(id) //--USANDO MONGO
 
   res.json({ status: 'producto eliminado' })
   logger.info('DELETE api/productos producto eliminado')
-})
+}
 
-router.put('/:id', async (req, res) => {
+const updateProduct =  async (req, res) => {
   if (!ADMIN)
     return res
       .status(401)
@@ -77,10 +65,9 @@ router.put('/:id', async (req, res) => {
   const { id } = req.params
   const { body } = req
 
-  await mongoProduct.updateById(id, body) //--USANDO MONGO
-  // await fireStoreProduct.updateById(id, body)//--USANDO FIRESTORE
+  await productService.updateById(id, body) //--USANDO MONGO
   res.json({ status: 'updated' })
   logger.info('PUT api/productos producto actualizado')
-})
+}
 
-export default router
+export default {getProducts, createProducts, deleteProduct, updateProduct}

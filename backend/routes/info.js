@@ -1,10 +1,7 @@
 import express from 'express'
-// const express = require('express')
 import { ARGS } from '../utils/minimist.js'
-// const { ARGS} = require('../utils/minimist.js')
 import os from 'os'
 import logger from '../utils/logger.js'
-// const numCPUs = require('os').cpus().length
 const numCPUs = os.cpus().length
 
 const router = express.Router()

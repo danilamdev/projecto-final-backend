@@ -1,6 +1,6 @@
 import Knex from 'knex'
 // const Knex = require('knex')
-import configSqlite from '../config/configSqlite.js'
+import configSqlite from '../../config/configSqlite.js'
 // const configSqlite = require('../config/configSqlite.js')
 
 class Mensajes {
