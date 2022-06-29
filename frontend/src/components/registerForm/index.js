@@ -80,7 +80,7 @@ if(loading) return <Loader />
           <input type="text" name="username" value={phone} onChange={(e) => setPhone(e.target.value)} className="p-3 rounded-md shadow-sm border bg-slate-50"/>
 
           <label htmlFor="avatar" className="text-lg">Avatar</label>
-          <input type="file" name="avatar" required  onChange={(e)=> setFile(e.target.files[0])} className="p-3 rounded-md shadow-sm border bg-slate-50 "/>
+          <input type="file" name="avatar" required accept=".png, .jpg, .jpeg" onChange={(e)=> setFile(e.target.files[0])} className="p-3 rounded-md shadow-sm border bg-slate-50 "/>
 
           <button className="bg-indigo-400 font-bold p-3 rounded-md text-white text-xl mt-8 hover:bg-indigo-300">Crear cuenta</button>
           <small>Ya tenes una cuenta?<span className="text-indigo-400"><Link to={'/login'}> Inicia Sesion</Link></span> </small>
