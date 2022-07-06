@@ -1,11 +1,14 @@
-import configMsql from '../config/configMysql.js'
-// const configMsql = require('../config/configMysql.js')
-
+import mySqlConfig from '../../../config/configMysql.js'
 import Knex from 'knex'
 
 class Productos {
   constructor(config) {
     this.knex = Knex(config)
+    this.getAll = this.getAll.bind(this)
+    this.saveProduct = this.saveProduct.bind(this)
+    this.getById = this.getById.bind(this)
+    this.removeById = this.removeById.bind(this)
+    this.updateById = this.updateById.bind(this)
   }
 
   async getAll() {
@@ -69,8 +72,7 @@ class Carrito {
   }
 }
 
-const productService = new Productos(configMsql)
-const carritoService = new Carrito(configMsql)
+const productServiceMysql = new Productos(mySqlConfig)
+const carritoService = new Carrito(mySqlConfig)
 
-export { productService, carritoService }
-// module.exports = { productService, carritoService }
+export { productServiceMysql, carritoService }

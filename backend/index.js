@@ -19,14 +19,14 @@ import './controllers/dbControllers/createTable.js'
 import RESPONSE_MSG from './utils/socket_responses.js'
 import mensajes from './controllers/dbControllers/sqliteControllers.js'
 import mockProductRoutes from './routes/productos-test.js'
-import { ARGS } from './utils/minimist.js'
 import logger from './utils/logger.js'
 import compression from 'compression'
 
 const app = express()
 const serverHttp = http.createServer(app)
-const PORT = process.argv[2]  || 8080
+const PORT =  8080
 export const io = new Server(serverHttp)
+
 
 // -- MIDDLEWARES
 
