@@ -6,8 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
-    "startMongo": "nodemon index.js --db mongodb",
-    "startMysql": "nodemon index.js --db mysql",
+    "file": "nodemon index.js --db --ignore productos.json file",
+    "mongo": "nodemon index.js --db mongodb",
+    "mysql": "nodemon index.js --db mysql",
     "start": "nodemon --inspect index.js 8080",
     "fork": "pm2 start index.js --name server1 --watch -- 8080",
     "cluster": "pm2 start index.js --name server2 -i 5 --watch -- 8081",
@@ -44,6 +45,7 @@
     "passport-local": "^1.0.0",
     "socket.io": "^4.4.1",
     "twilio": "^3.77.3",
+    "uuid": "^8.3.2",
     "winston": "^3.7.2",
     "winston-levelonly": "^1.0.3"
   },
