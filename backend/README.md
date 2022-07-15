@@ -39,6 +39,23 @@ Las rutas habilitadas son *localhost*; *localhost/info*; *localhost/api/random*
 
 
 
+## **Comandos para base de datos** ##
 
+***
+
+```
+npm run file
+```
+Inicia el servidor persistiendo los datos en un archivo *productos.json*
+
+```
+npm run mongo
+```
+Inicia el servidor persistiendo los datos en una base de datos de *mongodb*
+
+```
+npm run mysql
+```
+Inicia el servidor persistiendo los datos en una base de datos de *mysql*
 
 
