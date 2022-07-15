@@ -34995,3 +34995,13 @@
   level: 'info',
   timestamp: '2022-07-15T03:51:31.417Z'
 }
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-15T12:44:47.927Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-15T12:44:48.750Z'
+}

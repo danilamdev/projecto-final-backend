@@ -59,3 +59,35 @@ npm run mysql
 Inicia el servidor persistiendo los datos en una base de datos de *mysql*
 
 
+# API Restfull Endpoints #
+
+*  ### productos
+*  ### carrito
+
+#### **Obtener todos los productos**
+* **GET** http://localhost:8080/api/productos
+
+#### **Obtener producto por ID**
+* **GET** http://localhost:8080/api/productos/[id]
+
+#### **Crear un producto**
+* **POST** http://localhost:8080/api/productos
+
+#### **Eliminar un producto** 
+* **DELETE** http://localhost:8080/api/productos/[id]
+
+#### **Actualizar un producto**
+* **PUT** http://localhost:8080/api/productos/[id]
+
+
+---
+
+
+#### **Obtener productos en un carrito**
+* **GET*** http://localhost:8080/api/carrito/[idCarrito]/productos
+
+#### **Guardar producto en un carrito**
+* **POST*** http://localhost:8080/api/carrito/[idCarrito]/productos
+
+#### **Eliminar producto en un carrito**
+* **DELETE** http://localhost:8080/api/carrito/[idCarrito]/productos/[idProducto]
