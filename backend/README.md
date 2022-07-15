@@ -84,10 +84,10 @@ Inicia el servidor persistiendo los datos en una base de datos de *mysql*
 
 
 #### **Obtener productos en un carrito**
-* **GET*** http://localhost:8080/api/carrito/[idCarrito]/productos
+* **GET** http://localhost:8080/api/carrito/[idCarrito]/productos
 
 #### **Guardar producto en un carrito**
-* **POST*** http://localhost:8080/api/carrito/[idCarrito]/productos
+* **POST** http://localhost:8080/api/carrito/[idCarrito]/productos
 
 #### **Eliminar producto en un carrito**
 * **DELETE** http://localhost:8080/api/carrito/[idCarrito]/productos/[idProducto]
