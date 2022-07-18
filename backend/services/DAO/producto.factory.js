@@ -4,14 +4,14 @@ import { productoServiceFile } from "./file/producto.service.file.js"
 import minimist from "minimist"
 
 const argv = minimist(process.argv.slice(2))
-const { db } = argv || 'mongodb'
+const { db } = argv
 
 const SELECT_DB = {
   'mongodb': productServiceMongo,
   'mysql': productServiceMysql,
   'file': productoServiceFile
 }
-let instance = SELECT_DB[db]
+let instance = SELECT_DB[db] || productServiceMongo
 
 export default class ProdDAO {
   static initInstance() {

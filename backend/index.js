@@ -21,10 +21,11 @@ import mensajes from './controllers/dbControllers/sqliteControllers.js'
 import mockProductRoutes from './routes/productos-test.js'
 import logger from './utils/logger.js'
 import compression from 'compression'
+import graphqlConfig from './graphql/index.js'
 
 const app = express()
 const serverHttp = http.createServer(app)
-const PORT =  8080
+const PORT = 8080
 export const io = new Server(serverHttp)
 
 
@@ -36,7 +37,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(cors())
 app.use(session({
   secret: '123456',
-  store: mongoStore.create({ 
+  store: mongoStore.create({
     mongoUrl: process.env.MONGO_URI
   }),
   resave: true,
@@ -50,6 +51,8 @@ app.use(passport.initialize())
 app.use(passport.session())
 
 // --RUTAS API
+
+app.use('/graphql', graphqlConfig())
 
 app.use('/api/productos', productosRouter)
 app.use('/api/carrito', carritoRouter)

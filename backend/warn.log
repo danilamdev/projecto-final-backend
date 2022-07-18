@@ -35005,3 +35005,1333 @@
   level: 'info',
   timestamp: '2022-07-15T12:44:48.750Z'
 }
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-17T23:37:24.036Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-17T23:37:25.830Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:38:37.603Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:40:08.210Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:40:09.192Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:40:12.818Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:40:13.965Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:40:17.643Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:40:46.456Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:40:46.905Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:40:47.549Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:40:48.162Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:40:48.264Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:40:48.564Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:40:50.766Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-17T23:42:17.324Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-17T23:42:18.753Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:42:21.450Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:42:21.811Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:42:21.965Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:42:22.022Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:42:22.261Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-17T23:42:34.920Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-17T23:42:36.211Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:42:39.538Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-17T23:43:56.763Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-17T23:43:57.569Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:44:01.231Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:44:03.285Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:44:07.154Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-17T23:47:21.147Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-17T23:47:22.455Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:47:42.668Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:47:44.644Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:47:44.718Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:47:44.934Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:47:45.001Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:47:45.283Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:47:46.578Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:47:52.951Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:47:53.017Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:47:54.857Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:47:57.033Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:48:02.330Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:48:02.870Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:48:02.946Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-17T23:48:31.939Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-17T23:48:33.567Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:48:37.278Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-17T23:58:03.899Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-17T23:58:05.426Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:13.832Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:17.109Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:17.690Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:20.699Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:21.418Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:21.535Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:22.896Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:32.992Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:33.880Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:35.601Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:37.739Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:39.247Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:39.938Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:42.681Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:43.303Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:46.255Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:46.891Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:48.642Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:49.362Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:58:51.301Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-17T23:59:10.776Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-17T23:59:12.680Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-17T23:59:17.604Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-17T23:59:38.560Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-17T23:59:40.001Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:00:27.882Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:00:28.893Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:00:31.665Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:00:40.712Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:01:00.913Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:01:02.404Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:01:31.670Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:01:39.123Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:01:40.376Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:01:41.315Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:01:42.006Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:01:42.657Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:01:43.217Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:01:51.989Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:01:52.660Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:01:52.869Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:01:53.126Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:01:53.461Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:02:02.340Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:02:03.003Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:02:24.844Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:02:25.482Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:03:15.984Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:03:21.758Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:03:21.940Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:03:22.281Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:03:22.343Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:03:22.403Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:03:22.684Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:03:22.692Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:03:22.695Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:03:23.539Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:03:23.652Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:03:23.823Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:03:24.413Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:03:26.235Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:03:27.405Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:03:27.833Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:03:30.538Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:03:31.187Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:14:33.336Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:14:34.658Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:14:52.902Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:14:54.036Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:14:54.624Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:14:57.365Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:14:58.168Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:14:59.740Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:15:00.560Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:15:02.194Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:15:05.679Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:15:07.869Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:15:10.224Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:15:10.706Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:15:12.106Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:15:12.368Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:15:15.513Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:26:07.610Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:26:08.364Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:28:05.523Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:28:07.040Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:30:34.719Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:30:36.059Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:33:59.490Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:34:00.300Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:34:04.967Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:36:34.817Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:36:35.502Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:37:06.397Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:37:07.711Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:38:57.355Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:38:58.075Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:39:00.753Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:40:43.862Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:40:44.862Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:40:51.033Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:40:52.534Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:40:53.060Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:40:53.413Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:40:53.597Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:40:53.654Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:40:54.512Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:40:54.542Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:40:54.600Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:40:54.943Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:40:55.117Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:40:55.174Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:40:56.506Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:40:56.957Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:01.726Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:06.268Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:09.679Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:13.778Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:13.923Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:14.174Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:14.398Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:17.551Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:18.864Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:21.236Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:22.486Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:41:43.221Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:41:44.246Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:51.742Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:53.880Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:54.177Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:54.382Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:54.589Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:54.792Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:57.329Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:59.439Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:41:59.921Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:42:02.371Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:42:02.854Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:42:04.868Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:42:06.618Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:42:07.823Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:42:09.285Z'
+}
+{
+  message: 'Ruta /favicon.ico, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-07-18T00:42:12.066Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:42:24.732Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:42:25.427Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T00:59:56.314Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T00:59:57.931Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:00:40.566Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:00:41.889Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:01:01.714Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:01:02.666Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:01:10.516Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:01:11.636Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:02:07.239Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:02:08.257Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:05:22.155Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:05:22.970Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:05:57.533Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:05:58.933Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:06:20.083Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:06:21.367Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:06:29.961Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:06:31.729Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:06:54.505Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:06:55.787Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:07:06.543Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:07:07.218Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:08:37.842Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:08:38.562Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:08:59.958Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:09:00.906Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:09:23.556Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:09:25.199Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:11:46.076Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:11:47.399Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:12:19.818Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:12:21.109Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:13:02.112Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:13:03.110Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:13:15.970Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:13:16.970Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:14:08.607Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:14:09.833Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:14:24.658Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:14:26.218Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:14:39.088Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:14:40.538Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:14:47.484Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:14:48.342Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:15:40.602Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:15:41.424Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:16:24.212Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:16:25.064Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:16:35.754Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:16:36.874Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:17:22.370Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:17:23.360Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:17:49.412Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:17:51.082Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:18:15.896Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:18:17.070Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:18:21.756Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:18:22.360Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:18:30.072Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:18:31.427Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:20:51.972Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:20:53.766Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:24:00.943Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:24:02.492Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:24:06.783Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:24:07.954Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:24:18.855Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:24:20.535Z'
+}
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-07-18T01:25:07.370Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-07-18T01:25:08.406Z'
+}

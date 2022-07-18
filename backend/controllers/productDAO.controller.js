@@ -6,14 +6,17 @@ let producto = ProdDAO.initInstance()
 
 const getProducts = async (req, res) => {
   const { id } = req.params
-  const productos = await producto.getAll()
 
   if (typeof id === 'undefined') {
+    const productos = await producto.getAll()
     const formatedProducts = productos.map(p => productoDTO(p))
     return res.json(formatedProducts)
   }
 
   const product = await producto.getById(id)
+  console.log('PRODUCTOS', product)
+
+
   if (product.length === 0) return res.status(404).json({ error: 'no se encontro el producto...' })
   const formatedProduct = productoDTO(product)
   return res.json(formatedProduct)
@@ -45,4 +48,4 @@ const updateProduct = async (req, res) => {
   logger.info('PUT api/productos producto actualizado')
 }
 
-export default { getProducts, createProduct, deleteProduct, updateProduct }
+export default { getProducts, createProduct, deleteProduct, updateProduct }  
