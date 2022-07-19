@@ -27,8 +27,8 @@ class Productos {
 
   async getById(id) {
     const productos = await this.getAll()
-    console.log(id)
     const producto = productos.find(p => (p._id || p.id) === id)
+
     if (typeof producto === 'undefined') return []
     return producto
   }

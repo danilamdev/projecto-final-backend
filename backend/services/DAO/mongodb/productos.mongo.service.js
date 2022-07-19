@@ -24,9 +24,12 @@ class Productos {
    }
 
    async getById(id) {
-      const producto = await Producto.findOne({ _id: id })
-
-      return producto
+      try {
+         const producto = await Producto.findOne({ _id: id })
+         return producto
+      } catch (error) {
+         return null
+      }
    }
 
    async removeById(id) {

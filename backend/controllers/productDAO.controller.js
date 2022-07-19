@@ -14,10 +14,8 @@ const getProducts = async (req, res) => {
   }
 
   const product = await producto.getById(id)
-  console.log('PRODUCTOS', product)
 
-
-  if (product.length === 0) return res.status(404).json({ error: 'no se encontro el producto...' })
+  if (product === null) return res.status(404).json({ error: 'no se encontro el producto...' })
   const formatedProduct = productoDTO(product)
   return res.json(formatedProduct)
 }

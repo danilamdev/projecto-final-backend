@@ -9,6 +9,11 @@ export default function productosDTO(producto) {
   //   minute: 'numeric',
   //   second: 'numeric'
   // }
+  function toDate(data) {
+    if (typeof data === 'string') return data
+
+    return data.toISOString()
+  }
 
   return {
     id: producto.id || producto._id,
@@ -18,7 +23,7 @@ export default function productosDTO(producto) {
     foto,
     precio,
     stock,
-    createdAt: timestamp
+    createdAt: toDate(timestamp)
     // createdAt: new Intl.DateTimeFormat('en-ES', IntlOptions).format(createdAt)
   }
 }
