@@ -44216,3 +44216,93 @@
   level: 'info',
   timestamp: '2022-08-06T19:13:22.956Z'
 }
+{
+  message: 'POST /login status OK',
+  level: 'info',
+  timestamp: '2022-08-06T19:15:43.818Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-06T19:15:44.532Z'
+}
+{
+  message: 'producto eliminado de carrito',
+  level: 'info',
+  timestamp: '2022-08-06T19:18:36.767Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-06T19:18:39.097Z'
+}
+{
+  message: 'GET /logout',
+  level: 'info',
+  timestamp: '2022-08-06T19:18:41.257Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-06T19:18:45.902Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-06T19:18:51.568Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-06T19:18:54.932Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-08-06T19:18:55.487Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-08-06T19:18:55.917Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-08-06T19:19:03.673Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-08-06T19:19:03.836Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-06T19:19:07.634Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-06T19:19:15.158Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-06T19:19:23.806Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-06T19:19:26.529Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-06T19:19:30.588Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-06T19:19:36.101Z'
+}

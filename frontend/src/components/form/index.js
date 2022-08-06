@@ -16,7 +16,7 @@ export default function Form() {
   const [newProduct, setNewProduct] = useState(initialValues);
   const [message, setMessage] = useState({ show: false, status: "" });
   const { setProductos } = useContext(productContext);
-  const {user} = useUser()
+  const { user } = useUser()
   const navigate = useNavigate()
 
   const handleChange = (e) => {
@@ -26,10 +26,9 @@ export default function Form() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if(!user) {
+    if (!user) {
       return navigate('/login')
-    } 
-    console.log('aqui')
+    }
     setNewProduct(initialValues);
 
     await createProduct(newProduct)
@@ -39,7 +38,7 @@ export default function Form() {
           setMessage({ show: false, status: "" });
         }, 5000);
 
-        setProductos( prev => [...prev, res.nuevoProducto]);
+        setProductos(prev => [...prev, res.nuevoProducto]);
 
       });
   };
