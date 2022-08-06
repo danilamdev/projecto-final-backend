@@ -160,3 +160,16 @@
   level: 'error',
   timestamp: '2022-06-24T02:06:28.850Z'
 }
+{
+  message: 'GET /failLogin status error',
+  level: 'error',
+  timestamp: '2022-08-06T17:44:33.036Z'
+}
+{
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-08-06T18:28:46.461Z'
+}

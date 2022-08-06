@@ -17,11 +17,11 @@ export default function Card({ producto }) {
     } else {
       await addProductToCart(producto);
       const result = await getCarritoById();
-  
+
       setCarrito(result.productos.length);
       setMessage({ show: true, status: "Producto agregado al carrito" });
       setTimeout(() => {
-        setMessage({ show: false, status: "" });
+        setMessage({ show: false, status: "" })
       }, 5000);
     }
   };
@@ -50,10 +50,10 @@ export default function Card({ producto }) {
       </div>
 
       {message.show && (
-          <p className="text-slate-800 w-56 text-center  border-lime-500 text-md fixed top-16 right-5 bg-white rounded-xl px-4 py-3 shadow-md shadow-lime-200/50 animate-toastyAnim">
-            {message.status}
-          </p>
-        )}
+        <p className="text-slate-800 w-56 text-center  border-lime-500 text-md fixed top-16 right-5 bg-white rounded-xl px-4 py-3 shadow-md shadow-lime-200/50 animate-toastyAnim">
+          {message.status}
+        </p>
+      )}
     </>
   );
 }

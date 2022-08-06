@@ -9,7 +9,7 @@ const SELECT_DB = {
   'mongodb': carritoServiceMongo,
   'mysql': carritoServiceMysql
 }
-let instance = SELECT_DB[db]
+let instance = SELECT_DB[db] || carritoServiceMongo
 
 export default class CarritoDAO {
   static initInstance() {

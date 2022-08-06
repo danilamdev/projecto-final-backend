@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <Chat />
       <h1 className="text-5xl text-center font-bold w-3/4 m-auto py-24 md:w-[550px]">
-        Ecomerce CoderHouse <span className="text-indigo-600">BACKEND</span>
+        E-commerce CoderHouse <span className="text-indigo-600">BACKEND</span>
       </h1>
 
       <div className="max-w-md mx-auto mb-8">
@@ -30,9 +30,9 @@ export default function Home() {
           </button>
         </Link>
       </div>
-      {productos.length === 0 
-        ?  <Loader />
-        :  <ListOfProducts productos={productos} />
+      {productos.length === 0
+        ? <Loader />
+        : <ListOfProducts productos={productos} />
       }
       <Form />
     </>

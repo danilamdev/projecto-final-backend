@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Home from "./pages/home";
 import Mock from "./pages/mock";
 import CartPage from "./pages/cart";
+import NotFound from "./components/NotFound";
 import LoginPage from "./pages/loginPage";
 import RegisterPage from "./pages/register";
 import RegisterSuccess from "./pages/registerSuccess";
@@ -15,13 +16,13 @@ import Loader from "./components/loader";
 
 function App() {
   const [loading, setLoading] = useState(true)
-  const {setUser} = useUser()
+  const { setUser } = useUser()
 
-  useEffect(()=>{
+  useEffect(() => {
     fetch('/api/auth/checkUser')
       .then(res => res.json())
       .then(res => {
-        if(!res.isAuth){
+        if (!res.isAuth) {
           setUser(null)
           setLoading(false)
         } else {
@@ -29,9 +30,9 @@ function App() {
           setLoading(false)
         }
       })
-  },[setUser])
+  }, [setUser])
 
-  if(loading) return <Loader />
+  if (loading) return <Loader />
 
   return (
     <div className="App">
@@ -43,13 +44,15 @@ function App() {
           <Route path="compraExitosa" element={<CompraExitosa />} />
         </Route>
         <Route path="/login" element={<LoginPage />} />
-       
+
         <Route path="/register" element={<RegisterPage />}>
-          <Route index element={<RegisterForm />}/>
+          <Route index element={<RegisterForm />} />
           <Route path="success" element={<RegisterSuccess />} />
         </Route>
+        <Route path="*" element={<Navigate to='404' replace />} />
+        <Route path="404" element={<NotFound />} />
       </Routes>
-     
+
     </div>
   );
 }

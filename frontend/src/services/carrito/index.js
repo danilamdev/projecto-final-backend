@@ -12,7 +12,7 @@ export async function addProductToCart(producto) {
       "Content-Type": "application/json",
     },
     body: JSON.stringify(producto),
-  }).then((res) => res.json());
+  }).then((res) => res.json())
 }
 
 export async function removeProductFromCart(productId) {
