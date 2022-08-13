@@ -29,11 +29,10 @@ export default function LoginPage() {
       })
       .finally(setLoading(false))
 
-
-
     setUsername('')
     setPassword('')
   }
+
 
   if (user) return <Navigate to={'/'} />
   if (loading) return <Loader />

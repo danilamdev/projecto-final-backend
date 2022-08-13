@@ -22,6 +22,7 @@ function App() {
     fetch('/api/auth/checkUser')
       .then(res => res.json())
       .then(res => {
+        console.log('checkUser', res)
         if (!res.isAuth) {
           setUser(null)
           setLoading(false)

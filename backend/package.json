@@ -9,7 +9,7 @@
     "file": "nodemon index.js --db --ignore productos.json file",
     "mongo": "nodemon index.js --db mongodb",
     "mysql": "nodemon index.js --db mysql",
-    "start": "nodemon --inspect index.js 8080",
+    "start": "node index.js 8080",
     "fork": "pm2 start index.js --name server1 --watch -- 8080",
     "cluster": "pm2 start index.js --name server2 -i 5 --watch -- 8081",
     "loadbalance": "nodemon cluster.js",

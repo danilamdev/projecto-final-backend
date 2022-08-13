@@ -7,6 +7,7 @@ import './config/mongoose.js'
 import session from 'express-session'
 import passport from 'passport'
 import mongoStore from 'connect-mongo'
+
 import notFound from './middlewares/notFound.js'
 import productosRouter from './routes/productosRoute.js'
 import carritoRouter from './routes/carritoRoute.js'
@@ -15,10 +16,11 @@ import checkoutRoute from './routes/checkoutRoute.js'
 import infoRoute from './routes/info.js'
 import randomRoute from './routes/randomRoute.js'
 import uploadAvatar from './routes/userAvatarRoute.js'
-import './controllers/dbControllers/createTable.js'
-import RESPONSE_MSG from './utils/socket_responses.js'
-import mensajes from './controllers/dbControllers/sqliteControllers.js'
 import mockProductRoutes from './routes/productos-test.js'
+
+import './controllers/dbControllers/createTable.js'
+import mensajes from './controllers/dbControllers/sqliteControllers.js'
+import RESPONSE_MSG from './utils/socket_responses.js'
 import logger from './utils/logger.js'
 import compression from 'compression'
 import graphqlConfig from './graphql/index.js'
@@ -50,17 +52,20 @@ app.use(session({
 app.use(passport.initialize())
 app.use(passport.session())
 
-// --RUTAS API
+//  --GraphQL api Route
 
 app.use('/graphql', graphqlConfig())
+
+
+// --RUTAS API
 
 app.use('/api/productos', productosRouter)
 app.use('/api/carrito', carritoRouter)
 app.use('/api/auth', authRoutes)
-app.use('/info', infoRoute)
 app.use('/api/random', randomRoute)
 app.use('/api/upload', uploadAvatar)
 app.use('/api/checkout', checkoutRoute)
+app.use('/info', infoRoute)
 
 // --Ruta mock productos
 app.use('/api/productos-test', mockProductRoutes)
