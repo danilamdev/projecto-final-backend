@@ -46036,3 +46036,345 @@
   level: 'info',
   timestamp: '2022-08-13T20:30:10.956Z'
 }
+{
+  message: 'Servidor Escuchando Y Listo en http://localhost:8080',
+  level: 'info',
+  timestamp: '2022-08-13T23:53:29.584Z'
+}
+{
+  message: 'conectado a mongodb',
+  level: 'info',
+  timestamp: '2022-08-13T23:53:30.869Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-08-13T23:53:47.453Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-08-13T23:53:47.826Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-13T23:53:47.957Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:03:33.625Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:05:35.979Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:05:36.010Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-08-14T00:05:36.182Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-08-14T00:05:36.533Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:05:36.669Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:05:48.977Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:05:52.995Z'
+}
+{
+  message: 'POST /login status OK',
+  level: 'info',
+  timestamp: '2022-08-14T00:06:46.364Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:06:46.859Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-08-14T00:06:51.398Z'
+}
+{
+  message: 'producto eliminado de carrito',
+  level: 'info',
+  timestamp: '2022-08-14T00:07:08.169Z'
+}
+{
+  message: 'producto eliminado de carrito',
+  level: 'info',
+  timestamp: '2022-08-14T00:07:10.028Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:07:13.395Z'
+}
+{
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-08-14T00:07:21.190Z'
+}
+{
+  message: {
+    body: 'nuevo pedido de test ,mail: test@gmail.com',
+    numSegments: '1',
+    direction: 'outbound-api',
+    from: 'whatsapp:+14155238886',
+    to: 'whatsapp:+5491167231003',
+    dateUpdated: 2022-08-14T00:07:21.000Z,
+    price: null,
+    errorMessage: null,
+    uri: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SMfde65a1e23909cb6a52d574e9dd611b8.json',
+    accountSid: 'ACf9cd021c8836f86f561243b769e8829a',
+    numMedia: '0',
+    status: 'queued',
+    messagingServiceSid: null,
+    sid: 'SMfde65a1e23909cb6a52d574e9dd611b8',
+    dateSent: null,
+    dateCreated: 2022-08-14T00:07:21.000Z,
+    errorCode: null,
+    priceUnit: null,
+    apiVersion: '2010-04-01',
+    subresourceUris: {
+      media: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SMfde65a1e23909cb6a52d574e9dd611b8/Media.json'
+    }
+  },
+  level: 'info',
+  timestamp: '2022-08-14T00:07:21.223Z'
+}
+{
+  message: 'mail enviado a test@gmail.com correctamente',
+  level: 'info',
+  timestamp: '2022-08-14T00:07:22.825Z'
+}
+{
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined,
+  level: 'error',
+  timestamp: '2022-08-14T00:07:31.181Z'
+}
+{
+  message: {
+    body: 'nuevo pedido de test ,mail: test@gmail.com',
+    numSegments: '1',
+    direction: 'outbound-api',
+    from: 'whatsapp:+14155238886',
+    to: 'whatsapp:+5491167231003',
+    dateUpdated: 2022-08-14T00:07:31.000Z,
+    price: null,
+    errorMessage: null,
+    uri: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM80a38ec34994fbf0051ac910abcd8645.json',
+    accountSid: 'ACf9cd021c8836f86f561243b769e8829a',
+    numMedia: '0',
+    status: 'queued',
+    messagingServiceSid: null,
+    sid: 'SM80a38ec34994fbf0051ac910abcd8645',
+    dateSent: null,
+    dateCreated: 2022-08-14T00:07:31.000Z,
+    errorCode: null,
+    priceUnit: null,
+    apiVersion: '2010-04-01',
+    subresourceUris: {
+      media: '/2010-04-01/Accounts/ACf9cd021c8836f86f561243b769e8829a/Messages/SM80a38ec34994fbf0051ac910abcd8645/Media.json'
+    }
+  },
+  level: 'info',
+  timestamp: '2022-08-14T00:07:31.216Z'
+}
+{
+  message: 'mail enviado a test@gmail.com correctamente',
+  level: 'info',
+  timestamp: '2022-08-14T00:07:32.161Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-08-14T00:07:36.012Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:07:38.411Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:07:40.119Z'
+}
+{
+  message: 'producto eliminado de carrito',
+  level: 'info',
+  timestamp: '2022-08-14T00:08:03.039Z'
+}
+{
+  message: 'producto eliminado de carrito',
+  level: 'info',
+  timestamp: '2022-08-14T00:08:03.681Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:08:22.530Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:08:25.753Z'
+}
+{
+  message: 'producto eliminado de carrito',
+  level: 'info',
+  timestamp: '2022-08-14T00:08:27.113Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:08:28.313Z'
+}
+{
+  message: 'GET /logout',
+  level: 'info',
+  timestamp: '2022-08-14T00:08:28.950Z'
+}
+{
+  message: 'GET /logout',
+  level: 'info',
+  timestamp: '2022-08-14T00:08:31.248Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:08:32.309Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:08:33.249Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:08:34.186Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:08:53.632Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:08:54.952Z'
+}
+{
+  message: 'GET /checkUser',
+  level: 'info',
+  timestamp: '2022-08-14T00:08:58.747Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:08:58.837Z'
+}
+{
+  message: 'Ruta /manifest.json, method GET no inplementada',
+  level: 'warn',
+  timestamp: '2022-08-14T00:08:59.060Z'
+}
+{
+  message: 'Mensaje inicial enviado',
+  level: 'info',
+  timestamp: '2022-08-14T00:09:01.739Z'
+}
+{
+  message: 'Mensaje recibido: daniel',
+  level: 'info',
+  timestamp: '2022-08-14T00:09:06.672Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:09:12.392Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:09:15.893Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:09:16.410Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:09:17.005Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:09:17.948Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:09:18.899Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:09:28.231Z'
+}
+{
+  message: 'Usuario conectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:09:34.007Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:09:41.738Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:09:42.050Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:10:21.020Z'
+}
+{
+  message: 'Usuario desconectado',
+  level: 'info',
+  timestamp: '2022-08-14T00:10:21.031Z'
+}

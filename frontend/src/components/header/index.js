@@ -7,14 +7,14 @@ import Carrito from "../carrito";
 
 export default function Header() {
 
-  const {user, setUser} = useUser()
+  const { user, setUser } = useUser()
   const [logoutMessage, setLogoutMessage] = useState(false)
   const navigate = useNavigate()
 
   const handleLogout = async () => {
     await logoutService()
     setLogoutMessage(true)
-    
+
     setTimeout(() => {
       setUser(null)
       setLogoutMessage(false)
@@ -22,20 +22,20 @@ export default function Header() {
     }, 2000);
 
   }
- 
+
   return (
     <>
-    {
-      logoutMessage
-        ? (
-          <div className="fixed left-2/5 bg-indigo-500 text-white p-5">
-            <h1>hasta luego {user?.username}!</h1>
-          </div>
-        )
-        : (
-          null
-        )
-    }
+      {
+        logoutMessage
+          ? (
+            <div className="fixed left-2/5 bg-indigo-500 text-white p-5">
+              <h1>hasta luego {user?.username}!</h1>
+            </div>
+          )
+          : (
+            null
+          )
+      }
       <header className="bg-white w-full">
         <div className="flex justify-between items-center w-11/12 m-auto max-w-screen-lg">
           <Link to={"/"}>
@@ -46,7 +46,7 @@ export default function Header() {
           </Link>
           <div className="flex items-center">
             {
-              user 
+              user
                 ? (
                   <div className="flex gap-5 p-2 items-center">
                     <img src={`http://localhost:8080/api/upload/${user._id}`} alt="avatar" className="w-9 h-9 rounded-full m-0" />
@@ -57,11 +57,18 @@ export default function Header() {
                   </div>
                 )
                 : (
-                  <Link to={"/login"}>
-                    <p className="relative after:absolute after:-inset-3 after:border-b-2 after:border-indigo-300 after:hidden hover:after:block mr-2">
-                      Login
-                    </p>
-                </Link>
+                  <>
+                    <Link to={"/login"}>
+                      <p className="relative after:absolute after:-inset-3 after:border-b-2 after:border-indigo-300 after:hidden hover:after:block mr-6">
+                        Login
+                      </p>
+                    </Link>
+                    <Link to={"/register"}>
+                      <p className="relative after:absolute after:-inset-3 after:border-b-2 after:border-indigo-300 after:hidden hover:after:block mr-2">
+                        Sign up
+                      </p>
+                    </Link>
+                  </>
                 )
             }
             <Link to={"/cart"}>
