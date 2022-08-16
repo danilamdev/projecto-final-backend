@@ -1,5 +1,5 @@
-# **Proyecto final curso BackEnd**
-## Curso __Coderhouse__
+# **Proyecto final Coderhouse**
+# Curso __Backend__
 
 ## Ecommerce
 App de Ecommerce realizada como proyecto final para el curso de BackEnd de [Coderhouse](https://www.coderhouse.com/).
@@ -9,7 +9,7 @@ En la carpeta __frontend__ se encuentra el código para iniciar el front, utiliz
 ---
 
 ## Iniciar proyecto
-### Inicializar el servidor
+### **Inicializar el servidor**
 
 
 Posicionarse primero en la carpeta *Backend*
@@ -31,7 +31,7 @@ npm run mysql
 ```bash
 npm run file
 ```
-### Inicializar el frontend
+### **Inicializar el frontend**
 
 Posicionarse primero en la carpeta *frontend*
 ```bash
@@ -45,9 +45,10 @@ npm start
 ```
 ## Aplicacion
 
-La aplicación redireccionará a login para agregar un producto al carrito o crearlo. 
+La aplicación redireccionará a login si el usuario no esta autenticado, ya sea para agregar un producto al carrito o crearlo. 
 Primero realizar un registro de usuario y luego iniciar sesión.
-Para crear un producto hay que iniciar como usuario administrador.
+
+Para crear un producto hay que iniciar como usuario administrador. Las credenciales del administrador son:
 ```json
 {
   username: "admin",
