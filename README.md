@@ -49,7 +49,7 @@ La aplicación redireccionará a login si el usuario no esta autenticado, ya sea
 Primero realizar un registro de usuario y luego iniciar sesión.
 
 Para crear un producto hay que iniciar como usuario administrador. Las credenciales del administrador son:
-```json
+```javascript
 {
   username: "admin",
   password: "admin" 
