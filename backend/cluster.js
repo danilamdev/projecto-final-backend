@@ -1,8 +1,8 @@
 import express from 'express'
 import cluster from 'cluster'
 import os from 'os'
-import randomRoute from './routes/randomRoute'
-import infoRoute from './routes/info'
+import randomRoute from './src/routes/randomRoute'
+import infoRoute from './src/routes/info'
 // const express = require('express')
 // const cluster = require('cluster')
 // const numCPU = require('os').cpus().length
@@ -26,7 +26,7 @@ app.use('/info', infoRoute)
 
 if (cluster.isPrimary) {
    console.log(`Master ${process.pid} is running`)
-   app.listen(8080, ()=> {
+   app.listen(8080, () => {
       console.log('escuchando en el puerto 8080')
    })
    for (let i = 0; i < numCPU; i++) {
